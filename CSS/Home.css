@@ -1,2 +1,44 @@
 /* CSS HOME */
+body {
+    width: 1300px;
+    padding: 5px;
+    margin: 20px;
+    background: linear-gradient(to right, white, #932C21);
+}
 
+header {
+    
+}
+
+nav{
+    float: left;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-right: 30px;
+}
+
+section {
+    float: left;
+}
+
+aside {
+   float: right;
+}
+
+#logo{
+    max-width: 20%;
+    max-height: 20%;
+    padding-right: 50px;
+    float: left;
+}
+
+h1 {
+    color:#932C21;
+    font-size: 2cm;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h2 {
+    font-size: 9mm;
+    font-family:Cochin, Georgia, Times, 'Times New Roman', serif;
+}

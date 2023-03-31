@@ -1,16 +1,18 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="UTF-8" />
-    <title>Publicaciones</title>
+    <title>Reservas</title>
 </head>
+
 <body>
     <div id="contenedor">
         <!-- INICIO HEADER -->
         <header id="header">
-            <img id="logo" src="img/logo.png" alt="logo"/>
+            <img id="logo" src="img/logo.png" alt="logo" title="Logo JUMISHE" />
             <h1> ESCAPE ROOM JUMISHE</h1>
-            <h4> Adentrate en la experiencia mas inmersiva</h4>
+            <h2> Adentrate en la experiencia mas inmersiva</h2>
         </header>
         <!-- FIN HEADER -->
 
@@ -29,43 +31,94 @@
             </table>
         </nav>
         <!-- FIN NAV -->
+        <!-- INICIO SECCION PRINCIPAL -->
+        <section id="seccion_principal">
+            <!-- HEADER SECCION PRINCIPAL -->
+            <header id="header_seccion">
+                <h3> Reserva tu experiencia </h3>
+            </header>
+            <!-- FIN HEADER SECCION PRINCIPAL -->
 
-                <!-- INICIO SECCION PRINCIPAL -->
-                <section id="seccion_principal">
-                    <!-- HEADER SECCION PRINCIPAL -->
-                    <header id="header_seccion">
-                        
-                    </header>
-                    <!-- FIN HEADER SECCION PRINCIPAL -->
-        
-                    <!-- ARTICULO SECCION PRINCIPAL -->
-                    <article id="articulo_seccion">
-                        
-                    </article>
-                    <!-- FIN ARTICULO SECCION PRINCIPAL -->
-        
-                    <!-- PIE SECCION PRINCIPAL -->
-                    <footer id="footer_seccion">
-        
-                    </footer>
-                    <!-- FIN PIE SECCION PRINCIPAL -->
-                </section>
-                <!-- FIN SECCION PRINCIPAL -->
-        
-                <!-- INICIO ASIDE -->
-                <aside id="aside">
-        
-                </aside>
-                <!-- FIN ASIDE -->
-            </div>
-        </body>
-        
-        <!-- INICIO FOOTER -->
-        <footer id="footer">
-            <img id="logo" src="img/logo.png" alt="logo"/>
-            <p> Desarrollado por Sheila Orejuela Valenzuela</p>
-        </footer>
-        <!-- FIN FOOTER -->
-    
+            <!-- ARTICULO SECCION PRINCIPAL -->
+            <article id="articulo_seccion">
+                <!-- Inicio del formulario de reserva-->
+                <div id="formulario">
+                    <form action="Reservar.jsp" method="get">
+                        Nombre : <input type="text" name="nombre" placeholder="Escribe tu nombre" required autofocus/>
+                        </br> </br>
+
+                        Apellidos : <input type="text" name="apellidos" placeholder="Escribe tus apellidos" required />
+                        </br> </br>
+
+                        Número de personas : <input type="number" min="2" max="8" step="1" name="personas" placeholder="Número de personas" required />
+                        </br> </br>
+
+                        Elige la experiencia : 
+                        </br>
+                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                        <input type="radio" name="experiencia" value="Quimico" /> DESASTRE QUÍMICO 
+                        </br>
+                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                        <input type="radio" name="experiencia" value="Quimico" /> LUX 
+                        </br>
+                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                        <input type="radio" name="experiencia" value="Quimico" /> EL TESORO MALDITO 
+                        </br> </br> 
+
+                        Elige la fecha : <input type="date" name="fecha" required/>
+                        </br> </br> 
+
+                        Escoge la hora : <select name="diayhora">
+                            <option value="10"> 10:00 </option>
+                            <option value="12"> 12:00 </option>
+                            <option value="14"> 14:00 </option>
+                            <option value="16"> 16:00 </option>
+                            <option value="18"> 18:00 </option>
+                            <option value="20"> 20:00 </option>
+                            <option value="22"> 22:00 </option>
+                        </select>
+                        </br> </br>
+
+                        Email : <input type="text" name="email" placeholder="Email" required />
+                        </br> </br>
+
+                        Observaciones : </br> <textarea  rows="5" cols="80" name="observaciones"></textarea>
+                        </br> </br>
+
+                        <input type="submit" value="Enviar"/>
+                        </br> </br>
+                    </form>
+                </div>
+                <!-- Fin del formulario de reserva-->
+            </article>
+            <!-- FIN ARTICULO SECCION PRINCIPAL -->
+
+            <!-- PIE SECCION PRINCIPAL -->
+            <footer id="footer_seccion">
+                <h3> Una vez realizada la reserva, se enviarán los datos correspondientes de la experiencia a tu Email.
+                    No dudes en revisarlo antes de comenzar la aventura.
+                </h3>
+            </footer>
+            <!-- FIN PIE SECCION PRINCIPAL -->
+        </section>
+        <!-- FIN SECCION PRINCIPAL -->
+
+        <!-- INICIO ASIDE -->
+        <aside id="aside">
+
+        </aside>
+        <!-- FIN ASIDE -->
+    </div>
 </body>
+
+<!-- INICIO FOOTER -->
+<footer id="footer">
+    <img id="logo" src="img/logo.png" alt="logo" title="Logo JUMISHE" />
+    <p> Desarrollado por Sheila Orejuela Valenzuela</p>
+    <p>Todos los derechos reservados. copyright 2023 &copy;</p>
+</footer>
+<!-- FIN FOOTER -->
+
+</body>
+
 </html>
