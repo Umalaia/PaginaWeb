@@ -3,7 +3,6 @@
 header {
     text-align: center;
     background: radial-gradient(rgb(173, 48, 48) 10%, black );
-
 }
 
 #logo {
@@ -21,6 +20,15 @@ nav {
 nav a {
     margin: 30px;
     color: white;
+    text-decoration: none;
+
+}
+
+nav a:hover {
+    margin: 30px;
+    background: radial-gradient(rgb(196, 153, 37), black);
+    text-decoration:underline;
+    
 }
 
 #contacto {
@@ -28,3 +36,7 @@ nav a {
     color: white;
 }
 
+body{
+    position: relative;
+    background-color: #C3C3C3 ;
+}

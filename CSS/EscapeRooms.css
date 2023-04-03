@@ -19,6 +19,14 @@ nav {
 nav a {
     margin: 30px;
     color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    margin: 30px;
+    background: radial-gradient(rgb(196, 153, 37), black);
+    text-decoration:underline;
+    
 }
 
 #escaperooms {
@@ -27,20 +35,37 @@ nav a {
 }
 
 body{
+    position: relative;
     background-color: #C3C3C3 ;
 }
 
-/*Estilo de los article de la página: leer más/menos */
+section{
+    position:right;
+    width: 70%;
+}
+article{
+    text-align: justify;
+    position: left;
+    justify-content: left;
+    width: 75%;
+}
 
-#check {
+#articulos{
+    background-color: rgba(22, 16, 16, 0.164);
+    padding: 50px;
+}
+
+/*Estilo de los article de la página: leer más/menos */
+/*Primer Artículo*/
+#check1 {
     display: none;
 }
 
-#check:checked ~ #contenido1{
+#check1:checked ~ #contenido1{
     display: block;
 }
 
-#check:checked ~ label{
+#check1:checked ~ label{
     display: none;
 }
 
@@ -58,4 +83,82 @@ label {
     margin-top: 10px;
 }
 
+/* Segundo artículo*/
+#check2 {
+    display: none;
+}
 
+#check2:checked ~ #contenido2{
+    display: block;
+}
+
+#check2:checked ~ label{
+    display: none;
+}
+
+#contenido2{
+    display: none;
+}
+
+label {
+    display: inline-block;
+    cursor: pointer;
+    color: white;
+    background-color: brown;
+    padding: 3px 13px;
+    border-radius: 3px;
+    margin-top: 10px;
+}
+
+/*Tercer Artículo*/
+#check3 {
+    display: none;
+}
+
+#check3:checked ~ #contenido3{
+    display: block;
+}
+
+#check3:checked ~ label{
+    display: none;
+}
+
+#contenido3{
+    display: none;
+}
+
+label {
+    display: inline-block;
+    cursor: pointer;
+    color: white;
+    background-color: brown;
+    padding: 3px 13px;
+    border-radius: 3px;
+    margin-top: 10px;
+}
+ /* Cuarto Artículo*/
+ #check4 {
+    display: none;
+}
+
+#check4:checked ~ #contenido4{
+    display: block;
+}
+
+#check4:checked ~ label{
+    display: none;
+}
+
+#contenido4{
+    display: none;
+}
+
+label {
+    display: inline-block;
+    cursor: pointer;
+    color: white;
+    background-color: brown;
+    padding: 3px 13px;
+    border-radius: 3px;
+    margin-top: 10px;
+}

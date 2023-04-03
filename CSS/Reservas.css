@@ -1,4 +1,4 @@
-/* CSS HOME */
+/* CSS PUBLICACIONES */
 header {
     text-align: center;
     background: radial-gradient(rgb(173, 48, 48) 10%, black );
@@ -30,7 +30,7 @@ nav a:hover {
     
 }
 
-#home {
+#reservas {
     background: radial-gradient(rgb(241, 0, 0), black);
     color: white;
 }

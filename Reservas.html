@@ -3,13 +3,12 @@
 <head>
     <meta charset="UTF-8" />
     <title>Publicaciones</title>
+    <link rel="stylesheet" href="css/Reservas.css"/>
 </head>
 <body>
     <div id="contenedor">
         <header>
-            <h2>Jumishe Madrid</h2>
             <img id="logo" src="img/logo.png" alt="Logo web" >
-            <p>Escape for fun</p>
         </header>
 
         <nav>
@@ -21,7 +20,40 @@
             <a id="contacto" href="Contacto.html">Contacto</a>
         </nav>
 
-        <h2>Reserva tu Escape</h2>
+        <h2>Reserva tu Experiencia</h2>
+
+        <form id="formReserva" action="procesarReserva.jsp" method="get">
+            <label>Nombre: </label>
+            <input type="text" name="Nombre" placeholder="Escribe tu nombre." required/>
+            <label>Apellidos: </label>
+            <input type="text" name="apellidos" placeholder="Indica tus apellidos"/>
+            <br/>
+            <label>Email de contacto</label>
+            <input type="email" name="email" placeholder="Indica un email de contacto" required/>
+            <label>Teléfono</label>
+            <input type="tel" name="tlfn" placeholder="Indica un número de contacto" required/>
+            <br/>
+            <label>Experiencia</label>
+            <select name="experiencias">
+                <option value="default" selected>Seleccione una... </option>
+                <option value="value1">Opcion 1</option>
+                <option value="value2">Opcion 2</option>
+                <option value="value3">Opcion 3</option>
+                <option value="value4">Opcion 4</option>
+                
+              </select>
+            <label>Tamaño del grupo</label>
+            <input type="number" min="1" max="5"/>
+            <br/>
+            <label>Fecha de reserva:</label>
+            <input type="date" name="fecha" required/>
+            <br/>
+            <input type="reset" />
+            <input type="submit" />
+
+            
+
+        </form>
 
     </div>
 </body>
