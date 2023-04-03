@@ -1,2 +1,30 @@
-/* CSS CONTACTO */
+/*Hoja de estilo para la página de contacto.*/
+
+header {
+    text-align: center;
+    background: radial-gradient(rgb(173, 48, 48) 10%, black );
+
+}
+
+#logo {
+    border-radius: 50%;
+
+}
+
+nav {
+    text-align: center;
+    font-size: 25px;
+    background-color: rgb(0, 0, 0);
+    
+}
+
+nav a {
+    margin: 30px;
+    color: white;
+}
+
+#contacto {
+    background: radial-gradient(rgb(241, 0, 0), black);
+    color: white;
+}
 

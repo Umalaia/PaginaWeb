@@ -3,35 +3,47 @@
 <head>
     <meta charset="UTF-8" />
     <title>Contacto</title>
+    <link rel="stylesheet" href="css/Contacto.css"/>
 </head>
 <body>
     <div id="contenedor">
         <header>
-            <h2>Jumishe Madrid</h2>
             <img id="logo" src="img/logo.png" alt="Logo web" >
-            <p>Escape for fun</p>
         </header>
 
         <nav>
-            <a href="Home.html">Home</a>
-            <a href="QuienesSomos.html">Quienes somos</a>
-            <a href="EscapeRooms.html">Escape Rooms</a>
-            <a href="Reservas.html">Reservas</a>
-            <a href="Noticias.html">Noticias</a>
-            <a href="Localizacion.html">Localización</a>
-            <a href="Contacto.html">Contacto</a>
+            <a id="home" href="Home.html">Home</a>
+            <a id="quienessomos" href="QuienesSomos.html">Quienes somos</a>
+            <a id="escaperooms" href="EscapeRooms.html">Escape Rooms</a>
+            <a id="reservas" href="Reservas.html">Reservas</a>
+            <a id="noticias" href="Noticias.html">Noticias</a>
+            <a id="contacto" href="Contacto.html">Contacto</a>
         </nav>
 
-        <h2>Contáctanos</h2>
+        <div id="localización">
+            <h2>Nos puedes encontrar aquí:</h2>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1517.6521647495993!2d-3.7728586076623936!3d40.468531857780455!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2ses!4v1680504809096!5m2!1ses!2ses" 
+            width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        
+        <div id="contacto">
 
-        <form action="procesarFormulario.jsp" method="get">
-            Nombre: <input type="text" name="Nombre" placeholder="Escribe tu nombre." required/>
-            Apellido: <input type="text" name="Apellido" placeholder="Escribe tu Apellido."/> <br/>
-            Email de contacto: <input type="email" name="email" placeholder="Escribe aquí un email válido" required /> <br/>
-            Motivo de contacto: <input type="text" name="Motivo" placeholder="Escribe el tema sobre el que nos contactas." required/> <br/>
-            <input type="text" name="Motivo" placeholder="Comentario..." required/>
-            <input type="submit" />
-        </form>
+            <h2>Contáctanos</h2>
+
+            <form action="procesarFormulario.jsp" method="get">
+                Nombre: <input type="text" name="Nombre" placeholder="Escribe tu nombre." required/>
+                Apellido: <input type="text" name="Apellido" placeholder="Escribe tu Apellido."/> <br/>
+                Email de contacto: <input type="email" name="email" placeholder="Escribe aquí un email válido" required /> <br/>
+                Motivo de contacto: <input type="text" name="Motivo" placeholder="Escribe el tema sobre el que nos contactas." required/> <br/>
+                <input type="text" name="Motivo" placeholder="Comentario..." required/>
+                <input type="submit" />
+            </form>
+
+        </div>
+
+        <aside>
+
+        </aside>
 
     </div>
 </body>
