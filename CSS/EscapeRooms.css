@@ -55,13 +55,28 @@ article{
     padding: 50px;
 }
 
-/*Estilo de los article de la página: leer más/menos */
-/*Primer Artículo*/
-#check1 {
+/*Estilo de los article de la página: botones leer más/menos */
+
+.ch {
     display: none;
 }
 
-#check1:checked ~ #contenido1{
+.contenido{
+    display: none;
+}
+
+label {
+    display: inline-block;
+    cursor: pointer;
+    color: white;
+    background-color: brown;
+    padding: 3px 13px;
+    border-radius: 3px;
+    margin-top: 10px;
+}
+
+/*Primer Artículo*/
+#check1:checked ~ .contenido{
     display: block;
 }
 
@@ -69,26 +84,8 @@ article{
     display: none;
 }
 
-#contenido1{
-    display: none;
-}
-
-label {
-    display: inline-block;
-    cursor: pointer;
-    color: white;
-    background-color: brown;
-    padding: 3px 13px;
-    border-radius: 3px;
-    margin-top: 10px;
-}
-
-/* Segundo artículo*/
-#check2 {
-    display: none;
-}
-
-#check2:checked ~ #contenido2{
+/*Segundo Artículo*/
+#check2:checked ~ .contenido{
     display: block;
 }
 
@@ -96,26 +93,8 @@ label {
     display: none;
 }
 
-#contenido2{
-    display: none;
-}
-
-label {
-    display: inline-block;
-    cursor: pointer;
-    color: white;
-    background-color: brown;
-    padding: 3px 13px;
-    border-radius: 3px;
-    margin-top: 10px;
-}
-
 /*Tercer Artículo*/
-#check3 {
-    display: none;
-}
-
-#check3:checked ~ #contenido3{
+#check3:checked ~ .contenido{
     display: block;
 }
 
@@ -123,42 +102,11 @@ label {
     display: none;
 }
 
-#contenido3{
-    display: none;
-}
-
-label {
-    display: inline-block;
-    cursor: pointer;
-    color: white;
-    background-color: brown;
-    padding: 3px 13px;
-    border-radius: 3px;
-    margin-top: 10px;
-}
  /* Cuarto Artículo*/
- #check4 {
-    display: none;
-}
-
-#check4:checked ~ #contenido4{
+#check4:checked ~ .contenido{
     display: block;
 }
 
 #check4:checked ~ label{
     display: none;
-}
-
-#contenido4{
-    display: none;
-}
-
-label {
-    display: inline-block;
-    cursor: pointer;
-    color: white;
-    background-color: brown;
-    padding: 3px 13px;
-    border-radius: 3px;
-    margin-top: 10px;
 }
