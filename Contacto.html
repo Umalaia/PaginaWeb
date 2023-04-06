@@ -26,7 +26,6 @@
                     <th> <a href="Noticias.html"> Noticias </a></th>
                     <th> <a href="QuienesSomos.html"> Quienes somos </a></th>
                     <th> <a href="Contacto.html"> Contacto </a></th>
-                    <th> <a href="Localizacion.html"> Localizacion </a></th>
                 </tr>
             </table>
         </nav>
@@ -42,22 +41,21 @@
             <!-- ARTICULO SECCION PRINCIPAL -->
             <article id="formulario_contacto">
                 <form action="Reservar.jsp" method="get">
-                    Nombre : <input type="text" name="nombre" placeholder="Introduce tu nombre" required autofocus />
+                    <label for="nombre">Nombre :</label>
+                    <input type="text" name="nombre" placeholder="Introduce tu nombre" required autofocus />
                     </br> </br>
-
-                    Apellidos : <input type="text" name="apellidos" placeholder="Introduce tus apellidos" required />
+                    <label for="apellidos">Apellidos :</label>
+                    <input type="text" name="apellidos" placeholder="Introduce tus apellidos" required />
                     </br> </br>
-
-                    Teléfono: <input type="tel" name="telefono" placeholder="Teléfono" />
+                    <label for="telefono">Teléfono :</label>
+                    <input type="tel" name="telefono" placeholder="Teléfono" />
                     </br> </br>
-
-                    Email : <input type="text" name="email" placeholder="Introduce tu Email" required />
+                    <label for="email">Email :</label>
+                    <input type="text" name="email" placeholder="Introduce tu Email" required />
                     </br> </br>
-
-                    Mensaje : </br> <textarea rows="7" cols="100" name="observaciones"
-                        placeholder="Contenido del mensaje "></textarea>
+                    <label for="mensaje">Mensaje :</label>
+                    </br> <textarea rows="7" cols="100" name="observaciones" placeholder="Contenido del mensaje "></textarea>
                     </br> </br>
-
                     <input type="submit" value="Enviar" />
                     </br> </br>
                 </form>
@@ -68,8 +66,10 @@
 
     <!-- PIE SECCION PRINCIPAL -->
     <footer id="footer_seccion">
+        <h2> JUMISHE SCAPE ROOM </h2>
         <h3> Encuentranos en la Calle Diego de Leon</h3>
-        <p> Conexión con las lineas 4, 5, 6 y 9 de Metro, en las paradas Diego de León y Nuñez de Balboa </p>
+        <p class="parrafo"> Conexión con las lineas 4, 5, 6 y 9 de Metro, en las paradas Diego de León y Nuñez de Balboa </p>
+        <p class="parrafo"> También puedes contactarnos al 659875214 </p>p>
         <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6560.025001854552!2d-3.679745253218645!3d40.43364450522356!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd4228c06589de9d%3A0x6d8262bf27131b0a!2sCalle%20de%20Diego%20de%20Le%C3%B3n%2C%2028006%20Madrid!5e0!3m2!1ses!2ses!4v1680226216267!5m2!1ses!2ses"
             width="1000" height="450" style="border:0;" allowfullscreen="" loading="lazy"
@@ -81,7 +81,7 @@
 
     <!-- INICIO ASIDE -->
     <aside id="aside">
-
+        <img id="premios" src="img/premios.png" alt="premios" title="Premios" />
     </aside>
     <!-- FIN ASIDE -->
     </div>
@@ -90,8 +90,8 @@
 <!-- INICIO FOOTER -->
 <footer id="footer">
     <img id="logo" src="img/logo.png" alt="logo" title="Logo JUMISHE" />
-    <p> Desarrollado por Sheila Orejuela Valenzuela</p>
-    <p>Todos los derechos reservados. copyright 2023 &copy;</p>
+    <p class="parrafo"> Desarrollado por Sheila Orejuela Valenzuela</p>
+    <p class="parrafo">Todos los derechos reservados. copyright 2023 &copy;</p>
 </footer>
 <!-- FIN FOOTER -->
 

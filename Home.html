@@ -4,6 +4,14 @@
 <head>
     <meta charset="UTF-8" />
     <title>Inicio</title>
+    <!-- FUENTES -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gruppo&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nabla&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap" rel="stylesheet"> 
+
+    <!-- CSS -->
     <link rel="stylesheet" href="CSS/Home.css">
 </head>
 
@@ -11,9 +19,8 @@
     <div id="contenedor">
         <!-- INICIO HEADER -->
         <header id="header">
-            <img id="logo" src="img/logo.png" alt="logo" title="Logo JUMISHE" />
-            <h1> ESCAPE ROOM JUMISHE</h1>
-            <h2> Adentrate en la experiencia mas inmersiva</h2>
+            <img id="logo" class="centrado" src="img/logo.png" alt="logo" title="Logo JUMISHE" />
+            <h2 class="centrado"> Adentrate en la experiencia mas inmersiva</h2>
         </header>
         <!-- FIN HEADER -->
 
@@ -21,13 +28,12 @@
         <nav id="nav">
             <table>
                 <tr>
-                    <th> <a href="Home.html"> Inicio </a></th>
-                    <th> <a href="EscapeRooms.html"> Escape Rooms </a></th>
-                    <th> <a href="Reservas.html"> Reservas </a></th>
-                    <th> <a href="Noticias.html"> Noticias </a></th>
-                    <th> <a href="QuienesSomos.html"> Quienes somos </a></th>
-                    <th> <a href="Contacto.html"> Contacto </a></th>
-                    <th> <a href="Localizacion.html"> Localizacion </a></th>
+                    <th class="boton_barra"> <a class="barra" href="Home.html"> Inicio </a></th>
+                    <th class="boton_barra"> <a class="barra" href="EscapeRooms.html"> Escape Rooms </a></th>
+                    <th class="boton_barra"> <a class="barra" href="Reservas.html"> Reservas </a></th>
+                    <th class="boton_barra"> <a class="barra" href="Noticias.html"> Noticias </a></th>
+                    <th class="boton_barra"> <a class="barra" href="QuienesSomos.html"> Quienes somos </a></th>
+                    <th> <a class="barra" href="Contacto.html"> Contacto </a></th>
                 </tr>
             </table>
         </nav>
@@ -37,9 +43,9 @@
         <section id="seccion_principal">
             <!-- HEADER SECCION PRINCIPAL -->
             <header id="header_seccion">
-                <h4> Disfruta de las diferentes experiencias en nuestro Escape Room </h4>
-                <p> Elige de entre nuestras 3 experiencias y prepárate para superar nuestros desafíos y retos en el
-                    menor tiempo posible</p>
+                <h1> Disfruta de las diferentes experiencias en nuestro Escape Room </h1>
+                <h5> Elige de entre nuestras 3 experiencias y prepárate para superar nuestros desafíos y retos en el
+                    menor tiempo posible</h5>
             </header>
             <!-- FIN HEADER SECCION PRINCIPAL -->
 
@@ -58,11 +64,11 @@
                 </div>
                 <!-- Fin introducción -->
                 <!-- Desastre químico -->
-                <div id="desastrequimico">
+                <div id="desastrequimico" class="fondo1">
                     <h3> Experiencia Desastre Químico </h3>
                     <img id="logoquimico" src="img/quimico.png" alt="logoquimico"
                         title="Logo Experiencia Desastre Quimico" />
-                    <p> En un laboratorio, por error, se ha ocasionado una fuga de un gas muy peligroso. Solo
+                    <p class="parrafo"> En un laboratorio, por error, se ha ocasionado una fuga de un gas muy peligroso. Solo
                         dispondreis de 60 minutos para evitar que este se
                         propague al exterior y pueda ocasionar unos daños catastróficos. Para ello, habrá que averiguar
                         la clave de acceso al area restringida
@@ -79,10 +85,10 @@
                 </div>
 
                 <!-- Lux -->
-                <div id="lux">
+                <div id="lux" class="fondo1">
                     <h3> Experiencia Lux </h3>
                     <img id="logolux" src="img/lux.png" alt="logolux" title="Logo Experiencia Lux" />
-                    <p> Corren tiempos inciertos en el mundo de la magia. El principio de los días oscuros ha comenzado
+                    <p class="parrafo"> Corren tiempos inciertos en el mundo de la magia. El principio de los días oscuros ha comenzado
                         y la era de la luz está
                         llegando a su fin. Morgana ha conseguido reunir a los magos más poderosos del mundo para
                         destruir todo lo que se
@@ -100,11 +106,11 @@
                 </div>
 
                 <!-- Pirata -->
-                <div id="pirata">
+                <div id="pirata" class="fondo1">
                     <h3> Experiencia El tesoro maldito </h3>
                     <img id="logopirata" src="img/pirata.png" alt="logopirata"
                         title="Logo Experiencia El tesoro maldito" />
-                    <p>
+                    <p class="parrafo">
                         Todo comenzó cuando el pirata John Callis decide apoderarse de los diamantes ocultos en una
                         gruta natural
                         de un islote perdido en el sur de Gales. Había una leyenda que hablaba de una maldición para el
@@ -135,19 +141,7 @@
 
         <!-- INICIO ASIDE -->
         <aside id="aside">
-            <p>
-                Todo comenzó cuando el pirata John Callis decide apoderarse de los diamantes ocultos en una gruta
-                natural
-                de un islote perdido en el sur de Gales. Había una leyenda que hablaba de una maldición para el poseedor
-                de estas joyas.
-                Una vez llevado su plan con éxito, descubre que las habladurías eran ciertas, y una vez con la posesión
-                de dichas joyas,
-                una terrible epidemia infectó a la tripulación, siendo condenados desde entonces,
-                y al capitán del navío, obligado a vagar por su buque encallado por toda la eternidad.
-                Cuenta la leyenda que si se consigue devolver los diamantes a su cofre, la maldición acabará para
-                siempre,
-                y el capitán podrá obtener su ansiado descanso eterno…
-            </p>
+            <img id="premios" src="img/premios3.png" alt="premios" title="Premios" />
         </aside>
         <!-- FIN ASIDE -->
     </div>
@@ -155,9 +149,9 @@
 
 <!-- INICIO FOOTER -->
 <footer id="footer">
-    <img id="logo" src="img/logo.png" alt="logo" title="Logo JUMISHE" />
-    <p> Desarrollado por Sheila Orejuela Valenzuela</p>
-    <p>Todos los derechos reservados. copyright 2023 &copy;</p>
+    <img id="logo" class="izquierda" src="img/logo.png" alt="logo" title="Logo JUMISHE" />
+    <p class="parrafo"> Desarrollado por Sheila Orejuela Valenzuela</p>
+    <p class="parrafo">Todos los derechos reservados. copyright 2023 &copy;</p>
 </footer>
 <!-- FIN FOOTER -->
 

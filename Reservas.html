@@ -26,7 +26,6 @@
                     <th> <a href="Noticias.html"> Noticias </a></th>
                     <th> <a href="QuienesSomos.html"> Quienes somos </a></th>
                     <th> <a href="Contacto.html"> Contacto </a></th>
-                    <th> <a href="Localizacion.html"> Localizacion </a></th>
                 </tr>
             </table>
         </nav>
@@ -44,17 +43,16 @@
                 <!-- Inicio del formulario de reserva-->
                 <div id="formulario_reservas">
                     <form action="Reservar.jsp" method="get">
-                        Nombre : <input type="text" name="nombre" placeholder="Introduce tu nombre" required autofocus />
+                        <label for="nombre">Nombre :</label>
+                        <input type="text" name="nombre" placeholder="Introduce tu nombre" required autofocus />
                         </br> </br>
-
-                        Apellidos : <input type="text" name="apellidos" placeholder="Introduce tus apellidos" required />
+                        <label for="apellidos">Apellidos :</label>
+                        <input type="text" name="apellidos" placeholder="Introduce tus apellidos" required />
                         </br> </br>
-
-                        Número de personas : <input type="number" min="2" max="8" step="1" name="personas"
-                            placeholder="Número de personas" required />
+                        <label for="personas">Número de personas :</label>
+                        <input type="number" min="2" max="8" step="1" name="personas" placeholder="Número de personas" required />
                         </br> </br>
-
-                        Elige la experiencia :
+                        <label for="experiencia">Elige la experiencia :</label>
                         </br>
                         &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
                         &nbsp; &nbsp; &nbsp; &nbsp;
@@ -68,11 +66,11 @@
                         &nbsp; &nbsp; &nbsp; &nbsp;
                         <input type="radio" name="experiencia" value="Quimico" /> EL TESORO MALDITO
                         </br> </br>
-
-                        Elige la fecha : <input type="date" name="fecha" required />
+                        <label for="fecha">Elige la fecha :</label>
+                        <input type="date" name="fecha" required />
                         </br> </br>
-
-                        Escoge la hora : <select name="diayhora">
+                        <label for="hora">Escoge la hora :</label>
+                            <select name="diayhora">
                             <option value="10"> 10:00 </option>
                             <option value="12"> 12:00 </option>
                             <option value="14"> 14:00 </option>
@@ -82,13 +80,12 @@
                             <option value="22"> 22:00 </option>
                         </select>
                         </br> </br>
-
-                        Email : <input type="text" name="email" placeholder="Email" required />
+                        <label for="email">Email :</label>
+                        <input type="text" name="email" placeholder="Email" required />
                         </br> </br>
-
-                        Observaciones : </br> <textarea rows="5" cols="80" name="observaciones" placeholder="Escribe aquí tu comentario"></textarea>
+                        <label for="observaciones">Observaciones :</label>
+                        </br> <textarea rows="5" cols="80" name="observaciones" placeholder="Escribe aquí tu comentario"></textarea>
                         </br> </br>
-
                         <input type="submit" value="Enviar" />
                         </br> </br>
                     </form>
@@ -118,8 +115,8 @@
 <!-- INICIO FOOTER -->
 <footer id="footer">
     <img id="logo" src="img/logo.png" alt="logo" title="Logo JUMISHE" />
-    <p> Desarrollado por Sheila Orejuela Valenzuela</p>
-    <p>Todos los derechos reservados. copyright 2023 &copy;</p>
+    <p class="parrafo"> Desarrollado por Sheila Orejuela Valenzuela</p>
+    <p class="parrafo">Todos los derechos reservados. copyright 2023 &copy;</p>
 </footer>
 <!-- FIN FOOTER -->
 
