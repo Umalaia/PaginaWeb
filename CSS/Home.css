@@ -3,33 +3,27 @@
 /* TODO */
 
 *{
- 
+    color: white;
 }
 
 /* BODY */
 body {
     max-width: 1920px;
     max-height: 1080px;
-    background: linear-gradient(to right, white, #672004);
+    background: linear-gradient(to right, rgb(67, 23, 117), #160600);
 }
 
-/* HEADER */
-header {
-       
-
-}
 
 /* NAV */
 nav{
     max-width: 1920px;
-    background-image: radial-gradient(circle, #932C21 0%, BLACK 100%);
+    background-image: radial-gradient(circle, #651E31 0%, rgb(0, 0, 0) 100%);
     font-size: 30px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: auto;
     padding-right: 250px;
-    padding-left: 250px;
-    
+    padding-left: 250px;    
 }
-
 
 /* ASIDE */
 aside {
@@ -49,11 +43,10 @@ section {
 
 
 
-
 /* SELECTOR POR ETIQUETA */
 h1 {
-    color:rgb(51, 4, 4);
-    font-size: 30px;
+    color:rgb(255, 243, 232);
+    font-size: 31px;
     font-family: 'Bungee Inline',Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
@@ -63,40 +56,47 @@ h2 {
     font-family: 'Nabla', 'Cochin', Georgia, Times, 'Times New Roman', serif;
     letter-spacing: 2px;
     word-spacing: 3px;
+    margin: auto;
 }
 
 h3 {
+    text-align: left;
     font-family: 'Gruppo','Courier New', Courier, monospace;
     font-size: 30px;
-    color: white;
+    color: rgb(255, 255, 255);
+    padding-top: 30px;
+    padding-left: 410px;
 }
 
 h4{
     font-family: 'Gruppo','Courier New', Courier, monospace;
-    font-size: 20px;
+    text-align: justify;
+    font-size: 28px;
 }
 
 h5 {
     font-family: 'Gruppo','Courier New', Courier, monospace;
-    font-size: 30px;
+    text-align: justify;
+    font-size: 23px;
 }
 
 
 
 /* SELECTOR POR ID */
-#logo.centrado{
+#logo{
     display: block;
+    float: center;
     max-width: 340px;
     max-height: 340px;
-    margin-top: 20px;
-    margin-bottom: 10px;
-    margin-left: 40%;
-    margin-right: 40%;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 10px;
     border-radius: 50%;
 }
 
-#logo.izquierda{
+#logo_footer{
     display: block;
+    float: left;
     max-width: 180px;
     max-height: 180px;
     margin-top: 20px;
@@ -108,52 +108,61 @@ h5 {
 
 #logoquimico{
     max-width: 300px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 45%;
 }
 
 #logolux{
     max-width: 300px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 20%;
 }
 
 #logopirata{
     max-width: 300px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 35%;
 }
 
 #header{
-    background-image: radial-gradient(circle, #932C21 0%, BLACK 100%);
+    background-image: radial-gradient(circle, #651E31 0%, BLACK 100%);
     width: 100%;
     height: 450px; 
 }
+
 #seccion_principal{
     max-width: 1280px;
-    margin-left: 35px;
+    padding-left: 100px;
 }
 
 #aside{
     width: 200px;
-    height: 1000px;
-    margin-right: 50px;
+    height: 1600px;
+    margin-right: 200px;
 }
 
 #premios {
+    display: block;
+    float: left;
     width: 300px;
-    height: 1200px;
+    height: 1145px;
+}
+
+#banner {
+    display: block;
+    float: left;
+    width: 300px;
+    height: 430px;
+    margin-top: 65px;
 }
 
 
 
 
 /* SELECTOR POR CLASE */
-.centrado{
-    float: center;
-}
-
-.izquierda{
-    float: left;
-}
-
-.derecha{
-    float: right;
-}
 
 .boton_barra{
     text-align: center;
@@ -163,15 +172,44 @@ h5 {
     padding-bottom: 2px;
 }
 
+.boton_info{
+    font-size: 20px;
+    font-family: 'Rubik vinyl','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding-left: 650px;
+    padding-top: 10px;
+    padding-bottom: 40px;
+
+}
+
+.boton_reserva{
+    font-size: 20px;
+    font-family: 'Rubik vinyl','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding-left: 80px;
+    padding-top: 10px;
+    padding-bottom: 40px;
+}
+
 .barra{
-    font-size: 27px;
-    font-family: 'Bungee Inline','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 35px;
+    font-family: 'Megrim','Bungee Inline','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: bisque;
     padding-left: 20px;
     text-decoration: none;
 }
 
 .fondo1{
+    background-image: url("../img/fondo5.png");
+    background-position: center;
+}
+
+.fondo2{
+    background-image: url("../img/fondo2.png");
+    background-position: center;
+}
+
+.fondo3{
     background-image: url("../img/fondo1.png");
     background-position: center;
 }
@@ -180,16 +218,23 @@ h5 {
     float: right;
     width: 800px;
     font-family: 'Gruppo','Courier New', Courier, monospace;
-    text-align: left;
+    text-align: justify;
     color: white;
     font-size: 23px;
     margin-top: 30px;
-    margin-bottom: 30px;
-    margin-right: 20px;
-    margin-left:20px;
+    padding-right: 70px;
+    padding-left:20px;
     padding-left: 30px;
-
 }
+
+.parrafo_footer{
+    font-family: 'Gruppo','Courier New', Courier, monospace;
+    font-size: 17px;
+    font-weight: bold;
+    text-align: left;
+    color: rgb(255, 255, 255);
+}
+
 
 
 
