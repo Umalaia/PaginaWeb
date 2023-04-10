@@ -1,4 +1,5 @@
 /* CSS Escape Rooms */
+/* Cabecera de la página*/
 header {
     text-align: center;
     background: radial-gradient(rgb(173, 48, 48) 10%, black );
@@ -9,6 +10,7 @@ header {
 
 }
 
+/* Menú de navegación interactivo*/
 nav {
     text-align: center;
     font-size: 25px;
@@ -35,28 +37,23 @@ nav a:hover {
 }
 
 body{
-    position: relative;
     background-color: #C3C3C3 ;
 }
 
 section{
-    position:right;
-    width: 70%;
-}
-article{
-    text-align: justify;
-    position: left;
-    justify-content: left;
-    width: 75%;
-}
-
-#articulos{
+    position: inline;
+    width: 60%;
     background-color: rgba(22, 16, 16, 0.164);
     padding: 50px;
 }
 
-/*Estilo de los article de la página: botones leer más/menos */
+article{
+    text-align: justify;
+    justify-content: center;
+    width: 90%;
+}
 
+/*Estilo de los article de la página: botones leer más/menos */
 .ch {
     display: none;
 }
