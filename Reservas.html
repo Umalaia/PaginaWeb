@@ -30,79 +30,87 @@
             </table>
         </nav>
         <!-- FIN NAV -->
-        <!-- INICIO SECCION PRINCIPAL -->
-        <section id="seccion_principal">
-            <!-- HEADER SECCION PRINCIPAL -->
-            <header id="header_seccion">
-                <h3> Reserva tu experiencia </h3>
-            </header>
-            <!-- FIN HEADER SECCION PRINCIPAL -->
 
-            <!-- ARTICULO SECCION PRINCIPAL -->
-            <article id="articulo_seccion">
-                <!-- Inicio del formulario de reserva-->
-                <div id="formulario_reservas">
-                    <form action="Reservar.jsp" method="get">
-                        <label for="nombre">Nombre :</label>
-                        <input type="text" name="nombre" placeholder="Introduce tu nombre" required autofocus />
-                        </br> </br>
-                        <label for="apellidos">Apellidos :</label>
-                        <input type="text" name="apellidos" placeholder="Introduce tus apellidos" required />
-                        </br> </br>
-                        <label for="personas">Número de personas :</label>
-                        <input type="number" min="2" max="8" step="1" name="personas" placeholder="Número de personas" required />
-                        </br> </br>
-                        <label for="experiencia">Elige la experiencia :</label>
-                        </br>
-                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-                        &nbsp; &nbsp; &nbsp; &nbsp;
-                        <input type="radio" name="experiencia" value="Quimico" /> DESASTRE QUÍMICO
-                        </br>
-                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-                        &nbsp; &nbsp; &nbsp; &nbsp;
-                        <input type="radio" name="experiencia" value="Quimico" /> LUX
-                        </br>
-                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-                        &nbsp; &nbsp; &nbsp; &nbsp;
-                        <input type="radio" name="experiencia" value="Quimico" /> EL TESORO MALDITO
-                        </br> </br>
-                        <label for="fecha">Elige la fecha :</label>
-                        <input type="date" name="fecha" required />
-                        </br> </br>
-                        <label for="hora">Escoge la hora :</label>
+        <!-- INICIO MAIN -->
+        <main id="main">
+            <!-- INICIO SECCION PRINCIPAL -->
+            <section id="seccion_principal">
+                <!-- HEADER SECCION PRINCIPAL -->
+                <header id="header_seccion">
+                    <h3> Reserva tu experiencia </h3>
+                </header>
+                <!-- FIN HEADER SECCION PRINCIPAL -->
+
+                <!-- ARTICULO SECCION PRINCIPAL -->
+                <article id="articulo_seccion">
+                    <!-- Inicio del formulario de reserva-->
+                    <div id="formulario_reservas">
+                        <form action="Reservar.jsp" method="get">
+                            <label for="nombre">Nombre :</label>
+                            <input type="text" name="nombre" placeholder="Introduce tu nombre" required autofocus />
+                            </br> </br>
+                            <label for="apellidos">Apellidos :</label>
+                            <input type="text" name="apellidos" placeholder="Introduce tus apellidos" required />
+                            </br> </br>
+                            <label for="personas">Número de personas :</label>
+                            <input type="number" min="2" max="8" step="1" name="personas"
+                                placeholder="Número de personas" required />
+                            </br> </br>
+                            <label for="experiencia">Elige la experiencia :</label>
+                            </br>
+                            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                            &nbsp; &nbsp; &nbsp; &nbsp;
+                            <input type="radio" name="experiencia" value="Quimico" /> DESASTRE QUÍMICO
+                            </br>
+                            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                            &nbsp; &nbsp; &nbsp; &nbsp;
+                            <input type="radio" name="experiencia" value="Quimico" /> LUX
+                            </br>
+                            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                            &nbsp; &nbsp; &nbsp; &nbsp;
+                            <input type="radio" name="experiencia" value="Quimico" /> EL TESORO MALDITO
+                            </br> </br>
+                            <label for="fecha">Elige la fecha :</label>
+                            <input type="date" name="fecha" required />
+                            </br> </br>
+                            <label for="hora">Escoge la hora :</label>
                             <select name="diayhora">
-                            <option value="10"> 10:00 </option>
-                            <option value="12"> 12:00 </option>
-                            <option value="14"> 14:00 </option>
-                            <option value="16"> 16:00 </option>
-                            <option value="18"> 18:00 </option>
-                            <option value="20"> 20:00 </option>
-                            <option value="22"> 22:00 </option>
-                        </select>
-                        </br> </br>
-                        <label for="email">Email :</label>
-                        <input type="text" name="email" placeholder="Email" required />
-                        </br> </br>
-                        <label for="observaciones">Observaciones :</label>
-                        </br> <textarea rows="5" cols="80" name="observaciones" placeholder="Escribe aquí tu comentario"></textarea>
-                        </br> </br>
-                        <input type="submit" value="Enviar" />
-                        </br> </br>
-                    </form>
-                </div>
-                <!-- Fin del formulario de reserva-->
-            </article>
-            <!-- FIN ARTICULO SECCION PRINCIPAL -->
+                                <option value="10"> 10:00 </option>
+                                <option value="12"> 12:00 </option>
+                                <option value="14"> 14:00 </option>
+                                <option value="16"> 16:00 </option>
+                                <option value="18"> 18:00 </option>
+                                <option value="20"> 20:00 </option>
+                                <option value="22"> 22:00 </option>
+                            </select>
+                            </br> </br>
+                            <label for="email">Email :</label>
+                            <input type="text" name="email" placeholder="Email" required />
+                            </br> </br>
+                            <label for="observaciones">Observaciones :</label>
+                            </br> <textarea rows="5" cols="80" name="observaciones"
+                                placeholder="Escribe aquí tu comentario"></textarea>
+                            </br> </br>
+                            <input type="submit" value="Enviar" />
+                            </br> </br>
+                        </form>
+                    </div>
+                    <!-- Fin del formulario de reserva-->
+                </article>
+                <!-- FIN ARTICULO SECCION PRINCIPAL -->
 
-            <!-- PIE SECCION PRINCIPAL -->
-            <footer id="footer_seccion">
-                <h3> Una vez realizada la reserva, se enviarán los datos correspondientes de la experiencia a tu Email.
-                    No dudes en revisarlo antes de comenzar la aventura.
-                </h3>
-            </footer>
-            <!-- FIN PIE SECCION PRINCIPAL -->
-        </section>
-        <!-- FIN SECCION PRINCIPAL -->
+                <!-- PIE SECCION PRINCIPAL -->
+                <footer id="footer_seccion">
+                    <h3> Una vez realizada la reserva, se enviarán los datos correspondientes de la experiencia a tu
+                        Email.
+                        No dudes en revisarlo antes de comenzar la aventura.
+                    </h3>
+                </footer>
+                <!-- FIN PIE SECCION PRINCIPAL -->
+            </section>
+            <!-- FIN SECCION PRINCIPAL -->
+        </main>
+        <!-- FIN MAIN -->
 
         <!-- INICIO ASIDE -->
         <aside id="aside">

@@ -6,10 +6,12 @@
     margin: 0px;
     padding: 0px;
     color: white;
+    /* outline: 1px solid aqua; */
 }
 
 /* BODY */
 body {
+    position: relative;
     border: 3px solid white;
     max-width: 1920px;
     max-height: 1080px;
@@ -25,6 +27,7 @@ header{
 
 /* NAV */
 nav{
+    position: relative;
     border: 3px solid white;
     max-width: 1920px;
     background-image: radial-gradient(circle, #651E31 0%, rgb(0, 0, 0) 100%);
@@ -35,8 +38,10 @@ nav{
     padding-left: 250px;    
 }
 
+
 /* SECCION BODY */
 section {
+    position: relative;
     border: 3px solid white;
     float: left;
     max-width: 1280px;
@@ -46,6 +51,7 @@ section {
 
 /* ASIDE */
 aside {
+    position: relative;
     border: 3px solid white;
     float: right;
     max-width: 300px;
@@ -57,6 +63,7 @@ aside {
 
  /* FOOTER */
  footer{
+    position: relative;
     border: 3px solid white;
     max-height: 250px;
     float: left;
@@ -115,11 +122,10 @@ h5 {
 
 
 #logo_footer{
-    display: block;
     float: left;
     max-width: 180px;
     max-height: 180px;
-    margin-top: 20px;
+    margin-top: 10px;
     margin-bottom: 10px;
     margin-left: 40px;
     margin-right: 40px;
@@ -128,6 +134,7 @@ h5 {
 
 
 #logoquimico{
+    float: left;
     max-width: 300px;
     padding-left: 40px;
     padding-right: 40px;
@@ -136,6 +143,7 @@ h5 {
 
 
 #logolux{
+    float: left;
     max-width: 300px;
     padding-left: 40px;
     padding-right: 40px;
@@ -144,9 +152,11 @@ h5 {
 
 
 #logopirata{
+    float: left;
     max-width: 300px;
     padding-left: 40px;
     padding-right: 40px;
+    margin-bottom: 10px;
     border-radius: 35%;
 }
 
@@ -170,6 +180,7 @@ h5 {
 
 
 #introduccion{
+    border: 3px solid white;
     height: 160px;
     margin-bottom: 20px;
 }
@@ -182,13 +193,13 @@ h5 {
 
 
 #lux{
-    height: 440px;
+    height: 460px;
     margin-bottom: 50px;
 }
 
 
 #pirata{
-    height: 440px;
+    height: 490px;
     margin-bottom: 20px;
 }
 
@@ -210,10 +221,17 @@ h5 {
     margin-top: 5px;
 }
 
+#footer .parrafo{
+    float: left;
+    padding: 0px;
+    margin-top: 150px;
+}
+
 
 /* SELECTOR POR CLASE */
 
 .boton_barra{
+    display: inline-block;
     text-align: center;
     border-right: 3px solid #932C21;
     padding-right: 20px;
@@ -222,22 +240,21 @@ h5 {
 }
 
 .boton_info{
+    display: inline-block;
     font-size: 20px;
     font-family: 'Rubik vinyl','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    text-align: center;
-    padding-left: 650px;
-    padding-top: 10px;
-    padding-bottom: 40px;
-
+    margin-left: 400px;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 .boton_reserva{
+    display: inline-block;
     font-size: 20px;
     font-family: 'Rubik vinyl','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    text-align: center;
-    padding-left: 80px;
-    padding-top: 10px;
-    padding-bottom: 40px;
+    margin-left: 50px;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 .barra{
@@ -271,9 +288,8 @@ h5 {
     color: white;
     font-size: 23px;
     margin-top: 30px;
-    padding-right: 70px;
-    padding-left:20px;
-    padding-left: 30px;
+    padding-right: 60px;
+
 }
 
 .parrafo_footer{
@@ -283,6 +299,7 @@ h5 {
     text-align: left;
     color: rgb(255, 255, 255);
 }
+
 
 
 
