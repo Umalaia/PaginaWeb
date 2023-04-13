@@ -234,6 +234,10 @@ ol li :hover{
     margin-top: 5px;
 }
 
+#footer{
+    border-top: 1px solid #160600;
+    box-shadow: 10px 10px 10px 10px black;
+}
 
 #footer .parrafo{
     float: left;

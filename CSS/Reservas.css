@@ -1,2 +1,193 @@
 /* CSS RESERVAS */
 
+/* TODO */
+
+*{
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    /* outline: 1px solid aqua; */
+}
+
+/* BODY */
+body {
+    position: relative;
+    width: 1903px;
+    background: linear-gradient(to right, rgb(67, 23, 117), #160600);
+}
+
+/* HEADER */
+header{
+    position: relative;
+    width: 100%;
+    height: 400px;
+}
+
+/* NAV */
+nav{
+    position: relative;
+    width: 1403px;
+    height: 47px;
+    background-image: radial-gradient(circle, #651E31 0%, rgb(0, 0, 0) 100%);
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: auto;
+    padding-right: 250px;
+    padding-left: 250px;    
+}
+
+
+/* SECCION BODY */
+section {
+    position: relative;
+    float: left;
+    /*width: 1280px;*/
+    width:70%;
+    margin-left: 100px;
+    margin-right: 50px;
+}
+
+/* ASIDE */
+aside {
+    float:right;
+    /*width: 300px;*/
+    width:16%;
+    height: 1000px;
+    margin-top: 10px;
+    margin-right: 100px;
+ }
+
+
+ /* FOOTER */
+ footer{
+    position: relative;
+    float: left;
+    width: 100%;
+ }
+
+
+/* SELECTOR POR ETIQUETA */
+h1 {
+    color:rgb(255, 243, 232);
+    font-size: 31px;
+    font-family: 'Bungee Inline',Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+h5 {
+    font-family: 'Gruppo','Courier New', Courier, monospace;
+    text-align: justify;
+    font-size: 23px;
+}
+
+ul li{
+    list-style: none;
+}
+
+ul li :hover{
+    font-weight: 900;
+}
+
+
+
+/* SELECTOR POR ID */
+#logo{
+    display: block;
+    float: center;
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    padding-top: 20px;
+    border-radius: 50%;
+}
+
+
+#logo_footer{
+    float: left;
+    width: 150px;
+    height: 150px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 100px;
+    margin-right: 40px;
+    border-radius: 50%;
+}
+
+#logoquimico{
+    float: left;
+    width: 300px;
+    margin-left: 40px;
+    margin-right: 40px;
+
+}
+
+
+#logolux{
+    float: left;
+    width: 300px;
+    margin-left: 40px;
+    margin-right: 40px;
+
+}
+
+
+#logopirata{
+    float: left;
+    width: 300px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 40px;
+
+}
+
+
+#header{
+    background-image: radial-gradient(circle, #651E31 0%, BLACK 100%);
+}
+
+
+#formulario_reservas{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#footer{
+    border-top: 1px solid #160600;
+    box-shadow: 10px 10px 10px 10px black;
+}
+
+#footer .parrafo{
+    float: left;
+    font-size: 20px;
+    line-height: 150px;
+    text-align: center;
+}
+
+
+
+/* SELECTOR POR CLASE */
+
+.parrafo{
+    float: right;
+    width: 800px;
+    font-family: 'Gruppo','Courier New', Courier, monospace;
+    text-align: justify;
+    color: white;
+    font-size: 23px;
+    margin-top: 30px;
+    padding-right: 60px;
+
+}
+
+.parrafo_footer{
+    font-family: 'Gruppo','Courier New', Courier, monospace;
+    font-size: 17px;
+    font-weight: bold;
+    text-align: left;
+    color: rgb(255, 255, 255);
+}
+
+.clearboth{
+    clear: both;
+}
+
