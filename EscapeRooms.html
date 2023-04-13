@@ -4,6 +4,18 @@
 <head>
     <meta charset="UTF-8" />
     <title>Escape Rooms</title>
+    <!-- FUENTES -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gruppo&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nabla&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Arbutus&family=Rubik+Vinyl&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Megrim&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Ruslan+Display&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="CSS/AreasDeActuacion.css">
 </head>
 
 <body>
@@ -11,13 +23,12 @@
         <!-- INICIO HEADER -->
         <header id="header">
             <img id="logo" src="img/logo.png" alt="logo" title="Logo JUMISHE" />
-            <h1> ESCAPE ROOM JUMISHE</h1>
             <h2> Adentrate en la experiencia mas inmersiva</h2>
         </header>
         <!-- FIN HEADER -->
 
         <!-- INICIO NAV -->
-        <nav id="nav">
+        <nav>
             <ul>
                 <li> <a class="barra" href="Home.html"> Inicio </a> </li>
                 <li> <a class="barra" href="EscapeRooms.html"> Escape Rooms </a></li>
@@ -40,8 +51,9 @@
                 <!-- FIN HEADER SECCION PRINCIPAL -->
                 <!-- ARTICULO SECCION PRINCIPAL -->
                 <article id="articulo_seccion">
+                    <h1> ¿CÓMO SON NUESTROS ESCAPE ROOMS? </h1>
                     <!-- Desastre químico -->
-                    <div id="desastrequimico">
+                    <div id="desastrequimico" class="fondo1">
                         <h3> Experiencia Desastre Químico </h3>
                         <img id="logoquimico" src="img/quimico.png" alt="logoquimico"
                             title="Logo Experiencia Desastre Quimico" />
@@ -78,13 +90,14 @@
                             Mucha suerte. Nuestra vida depende de vosotros.
                         </p>
                         <img id="instalaciones" src="img/instalaciones.png" alt="instalaciones" />
+                        <ol>
+                            <li class="boton_reserva"><a href="Reservas.html"> Reservar </a></li>
+                        </ol>
                     </div>
-                    <table>
-                        <th><a href="Reservas.html"> Reservar </a></th>
-                    </table>
+                    <div class="clearboth"> </div>
 
                     <!-- Lux -->
-                    <div id="lux">
+                    <div id="lux" class="fondo2">
                         <h3> Experiencia Lux </h3>
                         <img id="logolux" src="img/lux.png" alt="logolux" title="Logo Experiencia Lux" />
                         <p class="parrafo">
@@ -117,13 +130,14 @@
                             pararla y la oscuridad vencerá.
                         </p>
 
-                        <table>
-                            <th><a href="Reservas.html"> Reservar </a></th>
-                        </table>
+                        <ol>
+                            <li class="boton_reserva"><a href="Reservas.html"> Reservar </a></li>
+                        </ol>
                     </div>
+                    <div class="clearboth"> </div>
 
                     <!-- Pirata -->
-                    <div id="pirata">
+                    <div id="pirata" class="fondo3">
                         <h3> Experiencia El tesoro maldito </h3>
                         <img id="logopirata" src="img/pirata.png" alt="logopirata"
                             title="Logo Experiencia El tesoro maldito" />
@@ -158,11 +172,11 @@
                             solo vosotros sois capaces de conseguirlo.
 
                         </p>
-                        <table>
-                            <th><a href="Reservas.html"> Reservar </a></th>
-                        </table>
+                        <ol>
+                            <li class="boton_reserva"><a href="Reservas.html"> Reservar </a></li>
+                        </ol>
                     </div>
-
+                    <div class="clearboth"> </div>
 
 
                 </article>
@@ -170,7 +184,7 @@
 
                 <!-- PIE SECCION PRINCIPAL -->
                 <footer id="footer_seccion">
-
+                    <p class="parrafo_footer"> * Jugadores de 2 a 8 personas en todas las experiencias</p>
                 </footer>
                 <!-- FIN PIE SECCION PRINCIPAL -->
             </section>
@@ -180,7 +194,10 @@
 
         <!-- INICIO ASIDE -->
         <aside id="aside">
+            <img id="reglas" src="img/reglas2.PNG" alt="reglas" title="Reglas Scape Room" />
             <video id="premios" src="img/premios2.mp4" alt="premios" title="Premios" autoplay loop></video>
+            <img id="banner" src="img/banner.png" alt="escapeonline" title="Escape room online" />
+
         </aside>
         <!-- FIN ASIDE -->
     </div>
@@ -188,9 +205,8 @@
 
 <!-- INICIO FOOTER -->
 <footer id="footer">
-    <img id="logo" src="img/logo.png" alt="logo" title="Logo JUMISHE" />
-    <p> Desarrollado por Sheila Orejuela Valenzuela</p>
-    <p>Todos los derechos reservados. copyright 2023 &copy;</p>
+    <img id="logo_footer" src="img/logo.png" alt="logo" title="Logo JUMISHE" />
+    <p class="parrafo">Todos los derechos reservados &copy; Sheila Orejuela Valenzuela</p>
 </footer>
 <!-- FIN FOOTER -->
 
