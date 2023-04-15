@@ -95,9 +95,25 @@ h2 {
 }
 
 
-ul li{
+ul li {
+    float: left;
     list-style: none;
+    font-size: 35px;
+    font-family: 'Megrim','Bungee Inline','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: bisque;
+    padding-left: 20px;
+    text-align: center;
+    padding-right: 20px;
+    padding-top: 2px;
+    padding-bottom: 2px;
 }
+
+
+ul li a{
+    text-decoration: none;
+}
+
+
 
 ul li :hover{
     font-weight: 900;
@@ -160,14 +176,6 @@ ul li :hover{
 
 
 /* SELECTOR POR CLASE */
-.barra{
-    font-size: 35px;
-    font-family: 'Megrim','Bungee Inline','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: bisque;
-    padding-left: 20px;
-    text-decoration: none;
-}
-
 .parrafo{
     float: right;
     width: 800px;
