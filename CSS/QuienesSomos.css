@@ -37,8 +37,8 @@ nav{
 }
 
 
-/* SECCION BODY */
-section {
+/* MAIN */
+main {
     position: relative;
     float: left;
     /*width: 1280px;*/
@@ -63,6 +63,17 @@ aside {
     position: relative;
     float: left;
     width: 100%;
+ }
+
+ /* SECCION */
+ section{
+    margin-top: 10px;
+    margin-bottom: 10px;
+ }
+
+ section header{
+    height: 200px;
+    margin-bottom: 20px;
  }
 
 
@@ -124,17 +135,6 @@ ul li :hover{
 }
 
 
-#seccion_principal{
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-
-#header_seccion{
-    height: 110px;
-    margin-bottom: 20px;
-}
-
-
 #premios {
     width: 300px;
     height: 1005px;
@@ -160,6 +160,14 @@ ul li :hover{
 
 
 /* SELECTOR POR CLASE */
+.barra{
+    font-size: 35px;
+    font-family: 'Megrim','Bungee Inline','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: bisque;
+    padding-left: 20px;
+    text-decoration: none;
+}
+
 .parrafo{
     float: right;
     width: 800px;

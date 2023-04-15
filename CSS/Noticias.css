@@ -37,8 +37,8 @@ nav{
 }
 
 
-/* SECCION BODY */
-section {
+/* MAIN */
+main {
     position: relative;
     float: left;
     /*width: 1280px;*/
@@ -64,6 +64,13 @@ aside {
     float: left;
     width: 100%;
  }
+
+ /* SECCION */
+ section{
+    margin-top: 60px;
+    margin-bottom: 10px;
+ }
+
 
 
 /* SELECTOR POR ETIQUETA */
@@ -115,11 +122,6 @@ ul li :hover{
 }
 
 
-#seccion_principal{
-    margin-top: 60px;
-    margin-bottom: 10px;
-}
-
 
 
 #banner {
@@ -141,6 +143,14 @@ ul li :hover{
 }
 
 /* SELECTOR POR CLASE */
+.barra{
+    font-size: 35px;
+    font-family: 'Megrim','Bungee Inline','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: bisque;
+    padding-left: 20px;
+    text-decoration: none;
+}
+
 .parrafo{
     float: right;
     width: 800px;
