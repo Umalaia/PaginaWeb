@@ -1,5 +1,6 @@
 /* CSS Escape Rooms */
-/* Cabecera de la página*/
+/* Cabecera de la página */
+
 header {
     text-align: center;
     background: radial-gradient(rgb(173, 48, 48) 10%, black );
@@ -10,7 +11,8 @@ header {
 
 }
 
-/* Menú de navegación interactivo*/
+/* Menú de navegación interactivo */
+
 nav {
     text-align: center;
     font-size: 25px;
@@ -19,7 +21,7 @@ nav {
 }
 
 nav a {
-    margin: 30px;
+    margin: 25px;
     color: white;
     text-decoration: none;
 }
@@ -36,15 +38,19 @@ nav a:hover {
     color: white;
 }
 
+/* Estructura general de la página */
+
 body{
     background-color: #C3C3C3 ;
+    margin: auto;
 }
 
 section{
-    position: inline;
     width: 60%;
     background-color: rgba(22, 16, 16, 0.164);
     padding: 50px;
+    float: left;
+    margin-left: 5%
 }
 
 article{
@@ -53,7 +59,18 @@ article{
     width: 90%;
 }
 
+aside{
+    float: right;
+    margin-right: 15%;
+}
+
+footer{
+    margin-left: 30%;
+    clear: both
+}
+
 /*Estilo de los article de la página: botones leer más/menos */
+
 .ch {
     display: none;
 }
@@ -72,7 +89,8 @@ label {
     margin-top: 10px;
 }
 
-/*Primer Artículo*/
+/*Primer Artículo */
+
 #check1:checked ~ .contenido{
     display: block;
 }
@@ -81,7 +99,8 @@ label {
     display: none;
 }
 
-/*Segundo Artículo*/
+/*Segundo Artículo */
+
 #check2:checked ~ .contenido{
     display: block;
 }
@@ -90,7 +109,8 @@ label {
     display: none;
 }
 
-/*Tercer Artículo*/
+/*Tercer Artículo */
+
 #check3:checked ~ .contenido{
     display: block;
 }
@@ -99,7 +119,8 @@ label {
     display: none;
 }
 
- /* Cuarto Artículo*/
+ /* Cuarto Artículo */
+
 #check4:checked ~ .contenido{
     display: block;
 }
@@ -107,3 +128,15 @@ label {
 #check4:checked ~ label{
     display: none;
 }
+
+/* Diseño Responsivo */
+
+/* Adaptación de ancho fijo de resoluciones de más de 1300px de ancho. */
+
+/* Adaptación optimizada para verse en una tablet en posición vertical. */
+
+/* Adaptación optimizada para verse en una tablet en posición horizontal. */
+
+/* Adaptación optimizada para verse en un teléfono posición vertical. */
+
+/* Adaptación optimizada para verse en un teléfono posición horizontal. */
