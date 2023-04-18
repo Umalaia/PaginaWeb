@@ -43,8 +43,6 @@ main {
     float: left;
     /*width: 1280px;*/
     width:70%;
-    margin-left: 100px;
-    margin-right: 50px;
 }
 
 /* ASIDE */
@@ -70,6 +68,7 @@ aside {
  section{
     margin-top: 10px;
     margin-bottom: 70px;
+    margin-left: 100px;
  }
 
  section header{
@@ -78,9 +77,8 @@ aside {
  }
 
 
- section footer{
-    height: 30px;
-    margin-bottom: 5px;
+form{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
 
@@ -136,7 +134,6 @@ ul li :hover{
 }
 
 
-
 /* SELECTOR POR ID */
 #logo{
     display: block;
@@ -162,7 +159,7 @@ ul li :hover{
 
 #logoquimico{
     float: left;
-    width: 300px;
+    width: 250px;
     margin-left: 40px;
     margin-right: 40px;
 
@@ -171,7 +168,7 @@ ul li :hover{
 
 #logolux{
     float: left;
-    width: 300px;
+    width: 250px;
     margin-left: 40px;
     margin-right: 40px;
 
@@ -180,7 +177,7 @@ ul li :hover{
 
 #logopirata{
     float: left;
-    width: 300px;
+    width: 250px;
     margin-left: 40px;
     margin-right: 40px;
     margin-bottom: 40px;
@@ -237,3 +234,11 @@ ul li :hover{
     clear: both;
 }
 
+.boton_enviar{
+    padding-left: 8px;
+    padding-top: 3px;
+    padding-right: 8px;
+    padding-bottom: 3px;
+    font-size: 15px;
+    background-color: #160600;
+}
