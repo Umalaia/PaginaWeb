@@ -71,3 +71,32 @@ body{
     position: relative;
     background-color: #C3C3C3 ;
 }
+
+article{
+    width: 60%;
+    background-color: rgba(22, 16, 16, 0.164);
+    padding: 50px;
+    float: left;
+    margin-left: 5%;
+    font-size: 30px;
+    text-align: center;
+}
+
+article a{
+    cursor: pointer;
+    color: black;
+    background-color: brown;
+    padding: 3px 13px;
+    border-radius: 3px;
+    margin-top: 10px;
+}
+
+aside{
+    float: right;
+    margin-right: 15%;
+}
+
+footer{
+    margin-left: 30%;
+    clear: both
+}
