@@ -34,6 +34,38 @@ nav a:hover {
     background: radial-gradient(rgb(241, 0, 0), black);
     color: white;
 }
+/* Desplegable Home*/
+nav div label{
+    margin: 30px;
+    color: white;
+    text-decoration: none;
+}
+
+.desplegable1 {
+    display: inline-block;
+    position: relative;
+}
+.desplegable2 {
+    display: none;
+    position: absolute;
+    width: 200%;
+    overflow: auto;
+    box-shadow: 0px 20px 20px 0px rgba(0,0,0,0.4);
+    background-color: #000000;
+}
+.desplegable1:hover .desplegable2 {
+    display: block;
+}
+.desplegable2 a {
+    display: block;
+    color: white;
+    padding: 5px;
+    text-decoration: none;
+}
+.desplegable2 a:hover {
+    color: #FFFFFF;
+    background-color: #00A4BD;
+}
 
 body{
     position: relative;
