@@ -40,3 +40,75 @@ body{
     position: relative;
     background-color: #C3C3C3 ;
 }
+
+/*Estilo de los article de la página: botones leer más/menos */
+
+.ch {
+    display: none;
+}
+
+.contenido{
+    display: none;
+}
+
+label {
+    display: inline-block;
+    cursor: pointer;
+    color: white;
+    background-color: brown;
+    padding: 3px 13px;
+    border-radius: 3px;
+    margin-top: 10px;
+}
+
+/*Primer Artículo */
+
+#check1:checked ~ .contenido{
+    display: block;
+}
+
+#check1:checked ~ label{
+    display: none;
+}
+
+/*Segundo Artículo */
+
+#check2:checked ~ .contenido{
+    display: block;
+}
+
+#check2:checked ~ label{
+    display: none;
+}
+
+/*Tercer Artículo */
+
+#check3:checked ~ .contenido{
+    display: block;
+}
+
+#check3:checked ~ label{
+    display: none;
+}
+
+ /* Cuarto Artículo */
+
+#check4:checked ~ .contenido{
+    display: block;
+}
+
+#check4:checked ~ label{
+    display: none;
+}
+
+/* Diseño Responsivo */
+
+/* Adaptación de ancho fijo de resoluciones de más de 1300px de ancho. */
+
+/* Adaptación optimizada para verse en una tablet en posición vertical. */
+
+/* Adaptación optimizada para verse en una tablet en posición horizontal. */
+
+/* Adaptación optimizada para verse en un teléfono posición vertical. */
+
+/* Adaptación optimizada para verse en un teléfono posición horizontal. */
