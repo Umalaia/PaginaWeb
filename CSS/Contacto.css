@@ -28,14 +28,11 @@ header{
 /* NAV */
 nav{
     position: relative;
-    width: 1403px;
+    width: 100%;
     height: 47px;
     background-image: radial-gradient(circle, #651E31 0%, rgb(0, 0, 0) 100%);
     font-size: 30px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    margin: auto;
-    padding-right: 250px;
-    padding-left: 250px;    
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;  
 }
 
 
@@ -56,6 +53,7 @@ main {
     width: 100%;
     height: 178px;
  }
+
 
  /* SECCION */
  section{
@@ -107,8 +105,12 @@ h3 {
 }
 
 
+ul{
+    margin-left: 12%;
+}
+
 ul li {
-    float: left;
+    display: inline-block;
     list-style: none;
     font-size: 35px;
     font-family: 'Megrim','Bungee Inline','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -136,9 +138,12 @@ ul li :hover{
     font-weight: 900;
 }
 
+article div{
+    width: 600px;
+}
 
 form{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 /* SELECTOR POR ID */
@@ -182,11 +187,13 @@ form{
 }
 
 #encuentranos{
+    width: 820px;
     float:left;
 }
 
 #mapa{
     width: 600px;
+    float: left;
 }
 
 

@@ -20,14 +20,13 @@ body {
 header{
     position: relative;
     width: 100%;
-
 }
 
 /* NAV */
 nav{
     position: relative;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    margin-left: 50px;
+    padding-left: 50px;
     height: 80px;
 }
 
@@ -59,8 +58,8 @@ main {
     float: left;
     /*width: 1280px;*/
     width:70%;
-    margin-left: 100px;
-    margin-right: 50px;
+    padding-left: 100px;
+    padding-right: 50px;
 }
 
 /* ASIDE */
@@ -69,8 +68,8 @@ aside {
     /*width: 300px;*/
     width:16%;
     height: 1800px;
-    margin-top: 10px;
-    margin-right: 100px;
+    padding-top: 10px;
+    padding-right: 100px;
  }
 
 
