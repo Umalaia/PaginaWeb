@@ -14,6 +14,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Arbutus&family=Rubik+Vinyl&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Megrim&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Ruslan+Display&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 
     <!-- CSS -->
     <link rel="stylesheet" href="CSS/Contacto.css">
@@ -27,27 +29,34 @@
         <header id="header">
             <!-- INICIO NAV -->
             <nav class="menu">
-                <input type="checkbox" href="#" class="desplegable" name="desplegable" id="desplegable" />
-                <label class="boton_desplegable" for="desplegable">
-                    <img id="logo_menu" src="img/logo.png" />
-                </label>
-                <ol>
-                    <li><a href="Home.html" class="objeto_menu home"> <i class="fa fa-home"></i></a></li>
-                    <li><a href="EscapeRooms.html" class="objeto_menu escaperooms"> <i class="fa fa-key"></i>
-                        </a></li>
-                    <li><a href="Reservas.html" class="objeto_menu reservas"> <i class="fa fa-calendar-check-o"></i>
-                          </a></li>
-                    <li><a href="Noticias.html" class="objeto_menu noticias"> <i class="fa fa-newspaper-o"></i>
-                        </a></li>
-                    <li><a href="QuienesSomos.html" class="objeto_menu quienessomos"> <i class="fa fa-users"></i>
-                           </a></li>
-                    <li><a href="Contacto.html" class="objeto_menu contacto"> <i class="fa fa-phone"></i></a>
+                <input checked="checked" class="menu-toggler" type="checkbox">
+                <img id="logo_menu" src="img/logo.png">
+                <label for="menu-toggler"> </label>
+                <ul>
+                    <li class="menu-item">
+                        <a href="Noticias.html"> <img id="news" src="img/5.png"/> </a>
                     </li>
-                </ol>
+                    <li class="menu-item">
+                        <a href="QuienesSomos.html"> <img id="us" src="img/3.png"/></a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="Contacto.html"><img id="contact" src="img/9.png"/></a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="Reservas.html"> <img id="calendar" src="img/6.png"/></a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="EscapeRooms.html""> <img id="scape" src="img/4.png"/></a>
+                  </li>
+                  <li class=" menu-item">
+                            <a href="Home.html"><img id="inicio" src="img/1.png"/></a>
+                    </li>
+                </ul>
             </nav>
             <!-- FIN NAV -->
         </header>
         <!-- FIN HEADER -->
+
 
         <!-- INICIO MAIN -->
         <main>
@@ -55,7 +64,7 @@
             <section>
                 <!-- HEADER SECCION PRINCIPAL -->
                 <header>
-                    <h3> Contacto </h3>
+                    <h1> Contacto </h1>
                 </header>
                 <!-- FIN HEADER SECCION PRINCIPAL -->
 
