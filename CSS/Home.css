@@ -68,8 +68,8 @@ nav div label{
 }
 
 body{
-    position: relative;
     background-color: #C3C3C3 ;
+    margin: auto
 }
 
 article{
@@ -89,11 +89,25 @@ article a{
     padding: 3px 13px;
     border-radius: 3px;
     margin-top: 10px;
+    text-decoration: none;
+}
+
+article a:hover{
+    background-color: rgb(196, 153, 37);
+}
+
+article img{
+    width: 15%;
 }
 
 aside{
-    float: right;
-    margin-right: 15%;
+    display: flex;
+    margin-right: 13%;
+    margin-left: 5px;
+}
+
+aside:hover{
+    cursor:pointer
 }
 
 footer{
