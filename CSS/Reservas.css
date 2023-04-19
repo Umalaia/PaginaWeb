@@ -12,7 +12,8 @@
 /* BODY */
 body {
     position: relative;
-    width: 1903px;
+    /*width: 1903px;*/
+    width: 100%;
     background: linear-gradient(to right, rgb(67, 23, 117), #160600);
 }
 
