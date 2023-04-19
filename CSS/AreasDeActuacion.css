@@ -1,2 +1,345 @@
-/* CSS AREAS DE ACTUACION */
+/* CSS ESCAPE ROOMS */
+
+/* TODO */
+
+*{
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    /* outline: 1px solid aqua; */
+}
+
+/* BODY */
+body {
+    position: relative;
+    width: 1903px;
+    background: linear-gradient(to right, rgb(67, 23, 117), #160600);
+}
+
+/* HEADER */
+header{
+    position: relative;
+    width: 100%;
+}
+
+/* NAV */
+nav{
+    position: relative;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-left: 50px;
+    height: 80px;
+}
+
+
+nav > ul > li >ul{
+    display: none;
+    position: absolute;
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 0%, rgba(252,176,69,1) 100%);
+    border:  1px solid bisque;
+    z-index: 1;
+}
+
+nav > ul > li:hover > ul{
+    display: block;
+}
+
+nav > ul > li > ul > li{
+    border: 1px solid bisque;
+}
+
+nav > ul > li > ul > li:hover{
+    background-color: #160600;
+}
+
+
+/* MAIN */
+main {
+    position: relative;
+    float: left;
+    /*width: 1280px;*/
+    width:70%;
+    padding-left: 100px;
+    padding-right: 50px;
+}
+
+/* ASIDE */
+aside {
+    float:right;
+    /*width: 300px;*/
+    width:16%;
+    height: 1800px;
+    padding-top: 10px;
+    padding-right: 100px;
+ }
+
+
+ /* FOOTER */
+ footer{
+    position: relative;
+    float: left;
+    width: 100%;
+ }
+
+
+ /* SECCION */
+ section footer{
+        height: 30px;
+        margin-bottom: 5px;
+ }
+
+
+
+ /* SELECTOR POR ETIQUETA */
+h1 {
+    text-align: center;
+    color:rgb(255, 243, 232);
+    font-size: 34px;
+    font-family: 'Bungee Inline',Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h2 {
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Nabla', 'Cochin', Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 2px;
+    word-spacing: 3px;
+    margin: auto;
+}
+
+h3 {
+    text-align: left;
+    font-family: 'Gruppo','Courier New', Courier, monospace;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    padding-top: 30px;
+    padding-left: 410px;
+}
+
+h4{
+    font-family: 'Gruppo','Courier New', Courier, monospace;
+    text-align: justify;
+    font-size: 28px;
+}
+
+h5 {
+    font-family: 'Gruppo','Courier New', Courier, monospace;
+    text-align: justify;
+    font-size: 23px;
+}
+
+ol li{
+    list-style: none;
+}
+
+
+ul li {
+    list-style: none;
+    font-size: 40px;
+    font-style: oblique;
+    font-weight: bold;
+    font-family: 'Megrim','Bungee Inline','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: bisque;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+
+ul li a{
+    text-decoration: none;
+}
+
+
+ul li ul li:hover{
+    font-weight: bold;
+}
+
+ol li :hover{
+    font-weight: 900;
+}
+
+nav h2{
+    float: left;
+    text-align: left;
+}
+
+/* SELECTOR POR ID */
+#logo{
+    display: block;
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    padding-top: 20px;
+    border-radius: 50%;
+}
+
+
+#logo_footer{
+    float: left;
+    width: 150px;
+    height: 150px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 100px;
+    margin-right: 40px;
+    border-radius: 50%;
+}
+
+
+#logoquimico{
+    float: left;
+    width: 300px;
+    margin-left: 40px;
+    margin-right: 40px;
+    border-radius: 45%;
+}
+
+
+#logolux{
+    float: left;
+    width: 300px;
+    margin-left: 40px;
+    margin-right: 40px;
+    border-radius: 20%;
+}
+
+
+#logopirata{
+    float: left;
+    width: 300px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 40px;
+    border-radius: 35%;
+}
+
+
+#header{
+    background-image: radial-gradient(circle, #651E31 0%, BLACK 100%);
+}
+
+
+#desastrequimico{
+    height: 1200px;
+    margin-bottom: 50px;
+    box-shadow: 0px 0px 30px black;
+}
+
+
+#instalaciones{
+    width: 60%;
+    float: left;
+    border-radius: 5%;
+    margin-top: 30px;
+    margin-left: 20%;
+}
+
+
+#lux{
+    height: 760px;
+    margin-bottom: 50px;
+    box-shadow: 0px 0px 30px black;
+}
+
+
+#pirata{
+    height: 790px;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 30px black;
+}
+
+
+#reglas{
+    width: 300px;
+}
+
+#premios {
+    width: 300px;
+    height: 1005px;
+
+}
+
+#banner {
+    width: 300px;
+    margin-top: 5px;
+}
+
+#footer{
+    border-top: 1px solid #160600;
+    box-shadow: 10px 10px 10px 10px black;
+}
+
+#footer .parrafo{
+    float: left;
+    font-size: 20px;
+    line-height: 150px;
+    text-align: center;
+}
+
+
+/* SELECTOR POR CLASE */
+.boton_reserva{
+    float: left;
+    font-size: 40px;
+    font-family: 'Rubik vinyl','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 3px white;
+    box-shadow: 4px 3px 4px  #e9dce9;
+    margin-left: 40%;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    padding-right: 20px ;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.boton_menu{
+    float: left;
+    width: 40px;
+    padding-top: 12px;
+    padding-left: 20px;
+}
+
+
+.fondo1{
+    background-image: url("../img/fondo5.png");
+    background-position: center;
+    background-size:cover;
+}
+
+.fondo2{
+    background-image: url("../img/fondo2.png");
+    background-position: center;
+    background-size:cover;
+}
+
+.fondo3{
+    background-image: url("../img/fondo1.png");
+    background-position: center;
+    background-size:cover;
+}
+
+.parrafo{
+    float: right;
+    width: 800px;
+    font-family: 'Gruppo','Courier New', Courier, monospace;
+    text-align: justify;
+    color: white;
+    font-size: 23px;
+    margin-top: 30px;
+    padding-right: 60px;
+
+}
+
+.parrafo_footer{
+    font-family: 'Gruppo','Courier New', Courier, monospace;
+    font-size: 17px;
+    font-weight: bold;
+    text-align: left;
+    color: rgb(255, 255, 255);
+}
+
+.clearboth{
+    clear: both;
+}
+
+
 

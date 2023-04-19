@@ -1,0 +1,248 @@
+/* CSS RESERVAS */
+
+/* TODO */
+
+*{
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    /* outline: 1px solid aqua; */
+}
+
+/* BODY */
+body {
+    position: relative;
+    width: 1903px;
+    background: linear-gradient(to right, rgb(67, 23, 117), #160600);
+}
+
+/* HEADER */
+header{
+    position: relative;
+    width: 100%;
+    height: 400px;
+}
+
+
+/* NAV */
+nav{
+    position: relative;
+    width: 100%;
+    height: 47px;
+    background-image: radial-gradient(circle, #651E31 0%, rgb(0, 0, 0) 100%);
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;  
+}
+
+/* MAIN */
+main {
+    position: relative;
+    float: left;
+    /*width: 1280px;*/
+    width:70%;
+}
+
+/* ASIDE */
+aside {
+    float:right;
+    /*width: 300px;*/
+    width:16%;
+    height: 1000px;
+    margin-top: 10px;
+    margin-right: 100px;
+ }
+
+
+ /* FOOTER */
+ footer{
+    position: relative;
+    float: left;
+    width: 100%;
+ }
+
+
+ /* SECCION */
+ section{
+    margin-top: 10px;
+    margin-bottom: 70px;
+    margin-left: 100px;
+ }
+
+ section header{
+    height: 70px;
+    margin-bottom: 20px;
+ }
+
+
+form{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+
+
+/* SELECTOR POR ETIQUETA */
+h1 {
+    color:rgb(255, 243, 232);
+    font-size: 31px;
+    font-family: 'Bungee Inline',Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h2 {
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Nabla', 'Cochin', Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 2px;
+    word-spacing: 3px;
+    margin: auto;
+}
+
+
+h5 {
+    font-family: 'Gruppo','Courier New', Courier, monospace;
+    text-align: justify;
+    font-size: 23px;
+}
+
+ul{
+    margin-left: 12%;
+}
+
+ul li {
+    display: inline-block;
+    list-style: none;
+    font-size: 35px;
+    font-family: 'Megrim','Bungee Inline','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: bisque;
+    padding-left: 20px;
+    text-align: center;
+    padding-right: 20px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border-right: 3px solid #932C21;
+}
+
+
+ul li a{
+    text-decoration: none;
+}
+
+ul li:last-child{
+    border-right: none ;
+}
+
+ul li :hover{
+    font-weight: 900;
+}
+
+
+/* SELECTOR POR ID */
+#logo{
+    display: block;
+    float: center;
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    padding-top: 20px;
+    border-radius: 50%;
+}
+
+
+#logo_footer{
+    float: left;
+    width: 150px;
+    height: 150px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 100px;
+    margin-right: 40px;
+    border-radius: 50%;
+}
+
+#logoquimico{
+    float: left;
+    width: 250px;
+    margin-left: 40px;
+    margin-right: 40px;
+
+}
+
+
+#logolux{
+    float: left;
+    width: 250px;
+    margin-left: 40px;
+    margin-right: 40px;
+
+}
+
+
+#logopirata{
+    float: left;
+    width: 250px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 40px;
+
+}
+
+
+#header{
+    background-image: radial-gradient(circle, #651E31 0%, BLACK 100%);
+}
+
+
+#formulario_reservas{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#footer{
+    border-top: 1px solid #160600;
+    box-shadow: 10px 10px 10px 10px black;
+}
+
+#footer .parrafo{
+    float: left;
+    font-size: 20px;
+    line-height: 150px;
+    text-align: center;
+}
+
+
+
+/* SELECTOR POR CLASE */
+.parrafo{
+    float: right;
+    width: 800px;
+    font-family: 'Gruppo','Courier New', Courier, monospace;
+    text-align: justify;
+    color: white;
+    font-size: 23px;
+    margin-top: 30px;
+    padding-right: 60px;
+
+}
+
+.parrafo_footer{
+    font-family: 'Gruppo','Courier New', Courier, monospace;
+    font-size: 17px;
+    font-weight: bold;
+    text-align: left;
+    color: rgb(255, 255, 255);
+}
+
+.clearboth{
+    clear: both;
+}
+
+.boton_enviar{
+    padding-left: 8px;
+    padding-top: 3px;
+    padding-right: 8px;
+    padding-bottom: 3px;
+    font-size: 15px;
+    background-color: #160600;
+}
+
+
+/* RESPONSIVE */

@@ -1,2 +1,220 @@
 /* CSS QUIENES SOMOS*/
 
+/* TODO */
+
+*{
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    /* outline: 1px solid aqua; */
+}
+
+/* BODY */
+body {
+    position: relative;
+    width: 1903px;
+    background: linear-gradient(to right, rgb(67, 23, 117), #160600);
+}
+
+/* HEADER */
+header{
+    position: relative;
+    width: 100%;
+    height: 400px;
+}
+
+/* NAV */
+nav{
+    position: relative;
+    width: 100%;
+    height: 47px;
+    background-image: radial-gradient(circle, #651E31 0%, rgb(0, 0, 0) 100%);
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;  
+}
+
+
+/* MAIN */
+main {
+    position: relative;
+    float: left;
+    /*width: 1280px;*/
+    width:70%;
+    height: 1300px;
+    margin-left: 100px;
+    margin-right: 50px;
+}
+
+/* ASIDE */
+aside {
+    float:right;
+    /*width: 300px;*/
+    width:16%;
+    height: 800px;
+    margin-top: 10px;
+    margin-right: 100px;
+ }
+
+
+ /* FOOTER */
+ footer{
+    position: relative;
+    float: left;
+    width: 100%;
+ }
+
+ /* SECCION */
+ section{
+    margin-top: 10px;
+    margin-bottom: 10px;
+ }
+
+ section header{
+    height: 120px;
+    margin-bottom: 20px;
+ }
+
+
+/* SELECTOR POR ETIQUETA */
+h1 {
+    text-align: center;
+    color:rgb(255, 243, 232);
+    font-size: 60px;
+    font-family: 'Bungee Inline',Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h2 {
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Nabla', 'Cochin', Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 2px;
+    word-spacing: 3px;
+    margin: auto;
+}
+
+
+ul{
+    margin-left: 12%;
+}
+
+ul li {
+    display: inline-block;
+    list-style: none;
+    font-size: 35px;
+    font-family: 'Megrim','Bungee Inline','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: bisque;
+    padding-left: 20px;
+    text-align: center;
+    padding-right: 20px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border-right: 3px solid #932C21;
+}
+
+
+ul li a{
+    text-decoration: none;
+}
+
+ul li:last-child{
+    border-right: none ;
+}
+
+ul li :hover{
+    font-weight: 900;
+}
+
+
+
+/* SELECTOR POR ID */
+#logo{
+    display: block;
+    float: center;
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    padding-top: 20px;
+    border-radius: 50%;
+}
+
+
+#logo_footer{
+    float: left;
+    width: 150px;
+    height: 150px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 100px;
+    margin-right: 40px;
+    border-radius: 50%;
+}
+
+
+#header{
+    background-image: radial-gradient(circle, #651E31 0%, BLACK 100%);
+}
+
+
+#premios {
+    width: 300px;
+    height: 1005px;
+}
+
+#banner {
+    width: 300px;
+    margin-top: 5px;
+}
+
+#footer{
+    border-top: 1px solid #160600;
+    box-shadow: 10px 10px 10px 10px black;
+}
+
+#footer .parrafo{
+    float: left;
+    font-size: 20px;
+    line-height: 150px;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 60%;
+}
+
+#quienessomos{
+    float: left;
+    width: 100%;
+}
+
+#descripcion{
+    float: left;
+}
+
+#tripadvisor{
+    float: left;
+    width: 10%;
+    margin-left: 37%;
+}
+
+#reseñas{
+    float: left;
+    width: 10%;
+    margin-left: 5%;
+}
+
+/* SELECTOR POR CLASE */
+.parrafo{
+    float: left;
+    width: 100%;
+    letter-spacing: 1px;
+    font-family: 'Gruppo','Courier New', Courier, monospace;
+    text-align: justify;
+    color: white;
+    font-size: 23px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.clearboth{
+    clear: both;
+}
+
