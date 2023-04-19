@@ -34,7 +34,8 @@ nav a:hover {
     background: radial-gradient(rgb(241, 0, 0), black);
     color: white;
 }
-/* Desplegable Home*/
+
+/* Desplegable*/
 nav div label{
     margin: 30px;
     color: white;

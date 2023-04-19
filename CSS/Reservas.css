@@ -36,7 +36,44 @@ nav a:hover {
 }
 
 body{
-    position: relative;
     background-color: #C3C3C3 ;
     margin: auto
+}
+
+h2{
+    margin-left: 15%;
+    padding-left: 20%;
+}
+
+form{
+    float: left;
+    border: solid;
+    width: 50%;
+    text-align: center;
+    margin-left: 10%;
+    padding: 50px;
+    font-size: 25px;
+}
+
+form span{
+    font-size: 15px;
+}
+
+form input{
+    height: 20px;
+}
+
+aside{
+    float: right;
+    margin-right: 13%;
+    margin-left: 5px;
+}
+
+aside:hover{
+    cursor:pointer
+}
+
+footer{
+    margin-left: 30%;
+    clear: both
 }
