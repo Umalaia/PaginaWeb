@@ -6,8 +6,8 @@
  .boton_desplegable {
     background: #EEEEEE;
     border-radius: 100%;
-    width: 80px;
-    height: 80px;
+    width: 150px;
+    height: 150px;
     margin-left: -40px;
     position: absolute;
     color: #FFFFFF;
@@ -20,41 +20,25 @@
     transition: transform ease-out 200ms;
     transition: transform ease-out 200ms, -webkit-transform ease-out 200ms;
  }
+
+ #logo_menu {
+   width: 150px;
+   height: 150px;
+   border-radius: 50%;
+}
+
+ol{
+   list-style: none;
+   list-style-position: inherit;
+   margin: 0px;
+   padding: 0px;
+}
+
  
  .desplegable {
     display: none;
  }
  
- .lines {
-    width: 25px;
-    height: 3px;
-    background: #596778;
-    display: block;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-left: -12.5px;
-    margin-top: -1.5px;
-    -webkit-transition: -webkit-transform 200ms;
-    transition: -webkit-transform 200ms;
-    transition: transform 200ms;
-    transition: transform 200ms, -webkit-transform 200ms;
- }
- 
- .line-1 {
-    -webkit-transform: translate3d(0, -8px, 0);
-    transform: translate3d(0, -8px, 0);
- }
- 
- .line-2 {
-    -webkit-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0);
- }
- 
- .line-3 {
-    -webkit-transform: translate3d(0, 8px, 0);
-    transform: translate3d(0, 8px, 0);
- }
  
  .desplegable:checked + .boton_desplegable .line-1 {
     -webkit-transform: translate3d(0, 0, 0) rotate(45deg);
@@ -276,19 +260,3 @@
     text-shadow: none;
  }
  
- .credit {
-    margin: 24px 20px 120px 0;
-    text-align: right;
-    color: #EEEEEE;
- }
- 
- .credit a {
-    padding: 8px 0;
-    color: #C49CDE;
-    text-decoration: none;
-    transition: all 0.3s ease 0s;
- }
- 
- .credit a:hover {
-    text-decoration: underline;
- }

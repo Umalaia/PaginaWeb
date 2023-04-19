@@ -20,35 +20,7 @@ body {
 header{
     position: relative;
     width: 100%;
-}
-
-/* NAV */
-nav{
-    position: relative;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    padding-left: 50px;
-    height: 80px;
-}
-
-
-nav > ul > li >ul{
-    display: none;
-    position: absolute;
-    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 0%, rgba(252,176,69,1) 100%);
-    border:  1px solid bisque;
-    z-index: 1;
-}
-
-nav > ul > li:hover > ul{
-    display: block;
-}
-
-nav > ul > li > ul > li{
-    border: 1px solid bisque;
-}
-
-nav > ul > li > ul > li:hover{
-    background-color: #160600;
+    height: 400px;
 }
 
 
@@ -87,13 +59,17 @@ aside {
         margin-bottom: 5px;
  }
 
+ section header{
+    height: 110px;
+ }
+
 
 
  /* SELECTOR POR ETIQUETA */
 h1 {
     text-align: center;
     color:rgb(255, 243, 232);
-    font-size: 34px;
+    font-size: 45px;
     font-family: 'Bungee Inline',Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
