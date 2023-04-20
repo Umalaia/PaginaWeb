@@ -812,28 +812,6 @@ nav h2{
     }
 
     /* MAIN */
-    #footer{
-        width: 100%;
-        height: 110px;
-    }
-
-    footer #footer{
-        height: 200px;
-    }
-
-    #footer .parrafo {
-        font-size: .5em;
-        width: 60%;
-        line-height: 60px;
-    }
-
-    #logo_footer{
-        margin-right: 0px;
-        width: 90px;
-        height: 90px;
-        margin-right: 10px;
-    }
-
 
     #desastrequimico {
         height: 1050px;
@@ -912,6 +890,39 @@ nav h2{
         margin-left: 4%;
     }
 
+
+    #footer{
+        width: 100%;
+        height: 110px;
+    }
+
+    footer #footer{
+        height: 200px;
+    }
+
+      /* ASIDE */
+      #reglas{
+        margin-top: 100px;
+    }
+
+    #premios{
+        height: 250px;
+    }
+
+    /* FOOTER */
+    #footer .parrafo {
+        font-size: .5em;
+        width: 60%;
+        line-height: 60px;
+    }
+
+    #logo_footer{
+        margin-right: 0px;
+        width: 90px;
+        height: 90px;
+        margin-right: 10px;
+    }
+    
     .parrafo{
         margin-left: 5%;
         padding-left: 0px;
@@ -925,16 +936,6 @@ nav h2{
     .parrafo_footer{
         font-size: .7em;
     }
-
-      /* ASIDE */
-      #reglas{
-        margin-top: 100px;
-    }
-
-    #premios{
-        height: 250px;
-    }
-    
 }
 
 

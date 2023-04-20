@@ -40,7 +40,6 @@ aside {
     float:right;
     /*width: 300px;*/
     width:16%;
-
     margin-top: 10px;
     margin-right: 100px;
  }
@@ -58,7 +57,6 @@ aside {
     margin-top: 60px;
     margin-bottom: 10px;
  }
-
 
 
 /* SELECTOR POR ETIQUETA */
@@ -133,8 +131,6 @@ ul li :hover{
 }
 
 
-
-
 #banner {
     width: 300px;
     margin-top: 50px;
@@ -176,4 +172,143 @@ ul li :hover{
 
 .clearboth{
     clear: both;
+}
+
+
+/* RESPONSIVE*/
+/* Adaptación de ancho fijo de resoluciones de más de 1300px de ancho.*/
+@media screen and (min-width: 1300px) {
+    main{
+        width: 73%;
+        margin-left: 5%;
+    }
+
+    aside{
+        float:left;
+        width: 15%;
+        margin-right: 3%;
+    }
+
+    #proximamente{
+        width: 100%;
+    }
+
+    #banner{
+        width: 100%;
+    }
+}
+
+/* TABLET HORIZONTAL */
+/* He cogido de referencia: Galaxy Tab S4 en Google Chrome (1138px x 712px) */
+@media screen and (max-width: 1138px){
+    main{
+        width: 72%;
+        margin-left: 5%;
+    }
+
+    aside{
+        float:left;
+        width: 15%;
+        margin-right: 3%;
+    }
+
+    #proximamente{
+        width: 100%;
+    }
+
+    #banner{
+        width: 100%;
+    }
+
+    #footer .parrafo{
+        width: 60%;
+    }
+}
+
+
+/* TABLET VERTICAL */
+/* He cogido de referencia: Galaxy Tab S4 en Google Chrome (712px x 1138px) */
+@media screen and (max-width: 712px){
+    main{
+        width: 80%;
+        margin-left: 1%;
+        margin-right: 15px;
+    }
+
+    aside{
+        float:left;
+        width: 15%;
+        margin-right: 1%;
+    }
+
+    #proximamente{
+        width: 100%;
+    }
+
+    #banner{
+        width: 100%;
+    }
+
+    #logo_footer{
+        width: 100px;
+        height: 100px;
+        margin-left: 2%;
+    }
+
+    #footer .parrafo{
+        width: 65%;
+        font-size: 1em;
+        padding-right: 0px;
+        line-height: 55px;
+    }
+}
+
+
+/* TELEFONO HORIZONTAL */
+/* He cogido de referencia: iPhone SE (667px x 375px) */
+@media screen and (max-width: 667px) {
+#footer .parrafo{
+    width: 65%;
+    font-size: .9em;
+    padding-right: 0px;
+    line-height: 55px;
+}
+}
+
+
+ /* TELEFONO VERTICAL */
+/* He cogido de referencia: iPhone SE (375px X 667px) */
+@media screen and (max-width: 375px) {
+    
+    main{
+        width: 98%;
+        margin-left: 1%;
+        margin-right: 5px;
+    }
+
+    aside{
+        display:none;
+    }
+
+    #proximamente{
+        width: 100%;
+    }
+
+    #banner{
+        width: 100%;
+    }
+
+    #footer .parrafo {
+        font-size: .5em;
+        width: 60%;
+        line-height: 60px;
+    }
+
+    #logo_footer{
+        margin-right: 0px;
+        width: 90px;
+        height: 90px;
+        margin-right: 10px;
+    }
+    
 }
