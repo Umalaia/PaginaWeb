@@ -69,6 +69,10 @@ form{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
+option{
+    color:black
+}
+
 
 
 /* SELECTOR POR ETIQUETA */
@@ -196,6 +200,10 @@ ul li :hover{
     float: left;
     font-size: 20px;
     text-align: center;
+}
+
+#input_form{
+    color:black;
 }
 
 
