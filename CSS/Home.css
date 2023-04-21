@@ -338,50 +338,22 @@ ol li :hover {
 
 /* RESPONSIVE*/
 /* Adaptación de ancho fijo de resoluciones de más de 1300px de ancho.*/
-
-@media screen and (max-width: 1785px) {
-
+@media screen and (min-width: 1300px) {
     main {
         width: 70%;
-        height: 100%;
-    }
-
-    aside {
-        width: 15%;
-    }
-
-    section .parrafo {
-        font-size: 23px;
-    }
-
-    #logoquimico {
-        width: 20%;
-    }
-
-    #logolux {
-        width: 20%;
-    }
-
-    #logopirata {
-        width: 20%;
-    }
-
-    #premios {
-        width: 100%;
-    }
-
-    #banner {
-        width: 100%;
-        margin-top: 5px;
-    }
-
-
-}
-
-@media screen and (max-width: 1692px) {
-    main {
-        width: 74%;
         margin-left: 50px;
+    }
+
+    nav ul li {
+        font-size: 26px;
+    }
+
+    h4 {
+        font-size: 1.4em;
+    }
+
+    h5 {
+        font-size: 1.2em;
     }
 
     aside {
@@ -389,39 +361,98 @@ ol li :hover {
         margin-right: 50px;
     }
 
+    /* MAIN */
+    #introduccion {
+        height: 150px;
+    }
+
+    #desastrequimico .parrafo {
+        width: 62%;
+        font-size: 1.3em;
+    }
+
+    #desastrequimico h3 {
+        margin-left: 31%;
+        padding-left: 0px;
+    }
+
+    #lux .parrafo {
+        width: 62%;
+        font-size: 1.3em;
+    }
+
+    #lux h3 {
+        margin-left: 31%;
+        padding-left: 0px;
+    }
+
+    #pirata .parrafo {
+        width: 62%;
+        font-size: 1.3em;
+    }
+
+    #pirata h3 {
+        margin-left: 31%;
+        padding-left: 0px;
+    }
+
     #logoquimico {
-        width: 18%;
+        width: 20%;
     }
 
     #logolux {
-        width: 18%;
+        width: 20%;
     }
 
     #logopirata {
-        width: 18%;
+        width: 20%;
+    }
+
+    #banner {
+        width: 100%;
     }
 
     #premios {
         height: 600px;
+        width: 100%;
+    }
+
+    .boton_info {
+        font-size: 20px;
+        margin-left: 32%;
+        padding-top: 10px;
+    }
+
+    .boton_reserva {
+        font-size: 20px;
+        padding-top: 10px;
     }
 }
 
 
-@media screen and (max-width: 1549px) {
+
+/* TABLET HORIZONTAL */
+/* He cogido de referencia: Galaxy Tab S4 en Google Chrome (1138px x 712px) */
+@media screen and (max-width: 1138px) {
+    main {
+        width: 74%;
+        margin-left: 3%;
+        padding-right: 0px;
+
+    }
+
+    aside {
+        width: 15%;
+        margin-right: 3%;
+    }
+
+
     header {
         height: 300px;
     }
 
-    ul {
-        margin-left: 12%;
-    }
-
-    nav ul li {
-        font-size: 30px;
-    }
-
     h1 {
-        font-size: 28px;
+        font-size: 1.5em;
     }
 
     h2 {
@@ -433,12 +464,20 @@ ol li :hover {
     }
 
     h4 {
-        font-size: 25px;
+        font-size: 1.5em;
     }
 
     h5 {
-        font-size: 20px;
+        font-size: 1.2em;
     }
+
+    section .parrafo {
+        width: 80%;
+        font-size: 20px;
+        margin-top: 10px;
+        margin-left: 10%;
+    }
+
 
     .parrafo {
         float: left;
@@ -460,19 +499,19 @@ ol li :hover {
     }
 
     #introduccion {
-        height: 120px;
+        height: 150px;
     }
 
     #desastrequimico {
-        height: 600px;
+        height: 500px;
     }
 
     #lux {
-        height: 600px;
+        height: 500px;
     }
 
     #pirata {
-        height: 600px;
+        height: 500px;
     }
 
     #logoquimico {
@@ -494,90 +533,18 @@ ol li :hover {
         margin-bottom: 0px;
     }
 
+    #banner {
+        width: 100%;
+    }
+
     #premios {
-        height: 600px;
-    }
-
-}
-
-
-@media screen and (max-width: 1415px) {
-    main {
-        width: 74%;
-        margin-left: 30px;
-    }
-
-    aside {
-        width: 15%;
-        margin-right: 30px;
-    }
-
-    nav ul li {
-        padding-top: 7px;
-        font-size: 26px;
-        height: 37px;
-    }
-
-    h1 {
-        font-size: 24px;
-    }
-
-    section header {
-        height: 130px;
-    }
-
-    section .parrafo {
-        font-size: 21px;
-    }
-
-    .parrafo {
-        margin-left: 10%;
+        width: 100%;
     }
 
     #footer .parrafo {
         margin-left: 0px;
     }
 
-    #premios {
-        height: 500px;
-    }
-
-    #desastrequimico {
-        height: 500px;
-    }
-
-    #lux {
-        height: 500px;
-    }
-
-    #pirata {
-        height: 500px;
-    }
-}
-
-
-/* PORTATIL */
-/* Apartado extra entre el tamaño fijo de 1300px al de tablet horizontal que son 1138px */
-@media screen and (max-width: 1262px) {
-    h1 {
-        font-size: 21px;
-    }
-
-    section header {
-        height: 130px;
-    }
-
-
-    nav ul li {
-        font-size: 20px;
-        height: 20px;
-    }
-
-    section .parrafo {
-        width: 80%;
-        font-size: 20px;
-        margin-top: 10px;
-    }
 
     #logo_footer {
         margin-left: 10px;
@@ -592,14 +559,6 @@ ol li :hover {
         margin-top: 0px;
         padding-bottom: 0px;
     }
-
-}
-
-
-
-/* TABLET HORIZONTAL */
-/* He cogido de referencia: Galaxy Tab S4 en Google Chrome (1138px x 712px) */
-@media screen and (max-width: 1138px) {
 
     /* NAV */
     ul {
@@ -671,6 +630,10 @@ ol li :hover {
         font-size: 13px;
     }
 
+    section header {
+        height: 120px;
+    }
+
     #introduccion {
         height: 90px;
     }
@@ -732,8 +695,8 @@ ol li :hover {
 @media screen and (max-width: 667px) {
 
     /* HEADER */
-    header{
-    height: 160px;
+    header {
+        height: 160px;
     }
 
     #logo {
@@ -746,7 +709,7 @@ ol li :hover {
     }
 
     /* NAV */
-    nav{
+    nav {
         height: 40px;
     }
 
@@ -759,27 +722,27 @@ ol li :hover {
     }
 
     /* MAIN */
-    h1{
+    h1 {
         font-size: 25px;
-        font-family: 'Bangers','Courier New', Courier, monospace;
+        font-family: 'Bangers', 'Courier New', Courier, monospace;
         padding-bottom: 10px;
         padding-top: 20px;
     }
 
-    section header{
+    section header {
         margin-bottom: 0px;
     }
 
 
-    #desastrequimico{
+    #desastrequimico {
         height: 320px;
     }
 
-    #lux{
+    #lux {
         height: 320px;
     }
 
-    #pirata{
+    #pirata {
         height: 360px;
     }
 
@@ -793,21 +756,22 @@ ol li :hover {
 /* TELEFONO VERTICAL */
 /* He cogido de referencia: iPhone SE (375px X 667px) */
 @media screen and (max-width: 375px) {
+
     /* HEADER */
-    #logo{
+    #logo {
         padding-top: 5px;
     }
 
-    header{
+    header {
         height: 130px;
     }
 
-    h2{
+    h2 {
         font-size: 12.6px;
     }
 
     /* NAV */
-    nav{
+    nav {
         height: 38px;
     }
 
@@ -821,86 +785,86 @@ ol li :hover {
 
 
     /* ASIDE */
-    aside{
+    aside {
         width: 16%;
         margin-right: 15px;
     }
 
-    #premios{
+    #premios {
         height: 200px;
     }
 
     /* MAIN */
-    main{
+    main {
         width: 73%;
         margin-left: 15px;
     }
 
-    section header{
+    section header {
         height: 100px;
     }
 
-    #introduccion{
+    #introduccion {
         height: 50px;
     }
 
-    h1{
+    h1 {
         font-size: 14px;
-        font-family: 'Bangers','Courier New', Courier, monospace;
+        font-family: 'Bangers', 'Courier New', Courier, monospace;
         padding-bottom: 10px;
         padding-top: 20px;
     }
 
-    h4{
+    h4 {
         font-size: 10px;
     }
 
-    h5{
+    h5 {
         font-size: 8.5px;
     }
 
-    section header{
+    section header {
         margin-bottom: 0px;
     }
 
 
-    #desastrequimico{
+    #desastrequimico {
         height: 170px;
         margin-bottom: 20px;
     }
 
-    #lux{
+    #lux {
         height: 185px;
         margin-bottom: 20px;
     }
 
-    #pirata{
+    #pirata {
         height: 200px;
         margin-bottom: 0px;
     }
 
-    #logoquimico{
+    #logoquimico {
         float: left;
         width: 27%;
         margin-right: 0px;
         margin-left: 3%;
     }
 
-    #logolux{
+    #logolux {
         float: left;
         width: 27%;
         margin-right: 0px;
         margin-left: 3%;
     }
 
-    #logopirata{
+    #logopirata {
         float: left;
         width: 27%;
         margin-right: 0px;
         margin-left: 3%;
     }
 
-    section .parrafo{
+    section .parrafo {
         width: 60%;
         float: left;
         font-size: 9px;
@@ -908,12 +872,12 @@ ol li :hover {
         padding-right: 0px;
     }
 
-    .boton_info{
+    .boton_info {
         margin-left: 35%;
         font-size: 7px;
     }
 
-    .boton_reserva{
+    .boton_reserva {
         font-size: 7px;
     }
 
@@ -921,9 +885,9 @@ ol li :hover {
         font-size: 7px;
     }
 
-    
-     /* FOOTER */
-     footer {
+
+    /* FOOTER */
+    footer {
         height: 85px;
     }
 
@@ -943,4 +907,3 @@ ol li :hover {
     }
 
 }
-

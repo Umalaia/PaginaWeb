@@ -2,7 +2,7 @@
 
 /* TODO */
 
-*{
+* {
     margin: 0px;
     padding: 0px;
     color: white;
@@ -12,12 +12,13 @@
 /* BODY */
 body {
     position: relative;
-    width: 1903px;
+    /*width: 1903px;*/
+    width: 100%;
     background: linear-gradient(to right, rgb(67, 23, 117), #160600);
 }
 
 /* HEADER */
-header{
+header {
     position: relative;
     width: 100%;
     height: 300px;
@@ -29,48 +30,48 @@ main {
     position: relative;
     float: left;
     /*width: 1280px;*/
-    width:70%;
+    width: 70%;
     padding-left: 100px;
     padding-right: 50px;
 }
 
 /* ASIDE */
 aside {
-    float:right;
+    float: right;
     /*width: 300px;*/
-    width:16%;
+    width: 16%;
     height: 1800px;
     padding-top: 10px;
     padding-right: 100px;
- }
+}
 
 
- /* FOOTER */
- footer{
+/* FOOTER */
+footer {
     position: relative;
     float: left;
     width: 100%;
- }
+    height: 178px;
+}
 
 
- /* SECCION */
- section footer{
-        height: 30px;
-        margin-bottom: 5px;
- }
+/* SECCION */
+section footer {
+    height: 30px;
+    margin-bottom: 5px;
+}
 
- section header{
+section header {
     height: 110px;
- }
+}
 
 
-
- /* SELECTOR POR ETIQUETA */
+/* SELECTOR POR ETIQUETA */
 h1 {
     text-align: center;
-    color:rgb(255, 243, 232);
+    color: rgb(255, 243, 232);
     font-size: 45px;
-    font-family: 'Bungee Inline',Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Bungee Inline', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 h2 {
@@ -84,26 +85,26 @@ h2 {
 
 h3 {
     text-align: left;
-    font-family: 'Gruppo','Courier New', Courier, monospace;
+    font-family: 'Gruppo', 'Courier New', Courier, monospace;
     font-size: 30px;
     color: rgb(255, 255, 255);
     padding-top: 30px;
     padding-left: 410px;
 }
 
-h4{
-    font-family: 'Gruppo','Courier New', Courier, monospace;
+h4 {
+    font-family: 'Gruppo', 'Courier New', Courier, monospace;
     text-align: justify;
     font-size: 28px;
 }
 
 h5 {
-    font-family: 'Gruppo','Courier New', Courier, monospace;
+    font-family: 'Gruppo', 'Courier New', Courier, monospace;
     text-align: justify;
     font-size: 23px;
 }
 
-ol li{
+ol li {
     list-style: none;
 }
 
@@ -113,33 +114,33 @@ ul li {
     font-size: 40px;
     font-style: oblique;
     font-weight: bold;
-    font-family: 'Megrim','Bungee Inline','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Megrim', 'Bungee Inline', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: bisque;
     padding-top: 2px;
     padding-bottom: 2px;
 }
 
 
-ul li a{
+ul li a {
     text-decoration: none;
 }
 
 
-ul li ul li:hover{
+ul li ul li:hover {
     font-weight: bold;
 }
 
-ol li :hover{
+ol li :hover {
     font-weight: 900;
 }
 
-nav h2{
+nav h2 {
     float: left;
     text-align: left;
 }
 
 /* SELECTOR POR ID */
-#logo{
+#logo {
     display: block;
     width: 300px;
     height: 300px;
@@ -149,7 +150,7 @@ nav h2{
 }
 
 
-#logo_footer{
+#logo_footer {
     float: left;
     width: 150px;
     height: 150px;
@@ -161,7 +162,7 @@ nav h2{
 }
 
 
-#logoquimico{
+#logoquimico {
     float: left;
     width: 300px;
     margin-left: 40px;
@@ -170,7 +171,7 @@ nav h2{
 }
 
 
-#logolux{
+#logolux {
     float: left;
     width: 300px;
     margin-left: 40px;
@@ -179,7 +180,7 @@ nav h2{
 }
 
 
-#logopirata{
+#logopirata {
     float: left;
     width: 300px;
     margin-left: 40px;
@@ -189,19 +190,19 @@ nav h2{
 }
 
 
-#header{
+#header {
     background-image: radial-gradient(circle, #651E31 0%, BLACK 100%);
 }
 
 
-#desastrequimico{
+#desastrequimico {
     height: 1200px;
     margin-bottom: 50px;
     box-shadow: 0px 0px 30px black;
 }
 
 
-#instalaciones{
+#instalaciones {
     width: 60%;
     float: left;
     border-radius: 5%;
@@ -210,21 +211,21 @@ nav h2{
 }
 
 
-#lux{
+#lux {
     height: 760px;
     margin-bottom: 50px;
     box-shadow: 0px 0px 30px black;
 }
 
 
-#pirata{
+#pirata {
     height: 790px;
     margin-bottom: 20px;
     box-shadow: 0px 0px 30px black;
 }
 
 
-#reglas{
+#reglas {
     width: 300px;
 }
 
@@ -239,12 +240,13 @@ nav h2{
     margin-top: 5px;
 }
 
-#footer{
+#footer {
     border-top: 1px solid #160600;
     box-shadow: 10px 10px 10px 10px black;
 }
 
-#footer .parrafo{
+
+#footer .parrafo {
     float: left;
     font-size: 20px;
     line-height: 150px;
@@ -253,21 +255,21 @@ nav h2{
 
 
 /* SELECTOR POR CLASE */
-.boton_reserva{
+.boton_reserva {
     float: left;
     font-size: 40px;
-    font-family: 'Rubik vinyl','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Rubik vinyl', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     border: 3px white;
-    box-shadow: 4px 3px 4px  #e9dce9;
+    box-shadow: 4px 3px 4px #e9dce9;
     margin-left: 40%;
     margin-top: 30px;
     margin-bottom: 40px;
-    padding-right: 20px ;
+    padding-right: 20px;
     padding-top: 5px;
     padding-bottom: 5px;
 }
 
-.boton_menu{
+.boton_menu {
     float: left;
     width: 40px;
     padding-top: 12px;
@@ -275,28 +277,28 @@ nav h2{
 }
 
 
-.fondo1{
+.fondo1 {
     background-image: url("../img/fondo5.png");
     background-position: center;
-    background-size:cover;
+    background-size: cover;
 }
 
-.fondo2{
+.fondo2 {
     background-image: url("../img/fondo2.png");
     background-position: center;
-    background-size:cover;
+    background-size: cover;
 }
 
-.fondo3{
+.fondo3 {
     background-image: url("../img/fondo1.png");
     background-position: center;
-    background-size:cover;
+    background-size: cover;
 }
 
-.parrafo{
+.parrafo {
     float: right;
     width: 800px;
-    font-family: 'Gruppo','Courier New', Courier, monospace;
+    font-family: 'Gruppo', 'Courier New', Courier, monospace;
     text-align: justify;
     color: white;
     font-size: 23px;
@@ -305,15 +307,15 @@ nav h2{
 
 }
 
-.parrafo_footer{
-    font-family: 'Gruppo','Courier New', Courier, monospace;
+.parrafo_footer {
+    font-family: 'Gruppo', 'Courier New', Courier, monospace;
     font-size: 17px;
     font-weight: bold;
     text-align: left;
     color: rgb(255, 255, 255);
 }
 
-.clearboth{
+.clearboth {
     clear: both;
 }
 
@@ -348,4 +350,620 @@ nav h2{
     }
 }
 
+/* RESPONSIVE*/
+/* Adaptación de ancho fijo de resoluciones de más de 1300px de ancho.*/
 
+@media screen and (min-width: 1300px) {
+    main {
+        width: 74%;
+        padding-left: 15px;
+        margin-left: 3%;
+    }
+
+    aside {
+        float: right;
+        width: 15%;
+        margin-right: 3%;
+        padding-right: 0px;
+    }
+
+    nav ul li {
+        padding-top: 7px;
+        font-size: 26px;
+        height: 37px;
+    }
+
+    h1 {
+        padding-top: 10px;
+        font-size: 2.5em;
+    }
+
+    section header {
+        height: 130px;
+    }
+
+    section .parrafo {
+        float: left;
+        font-size: 25px;
+        margin-left: 0px;
+        padding-right: 0px;
+    }
+
+
+    /* MAIN */
+    #footer {
+        width: 100%;
+    }
+
+
+    #footer .parrafo {
+        margin-left: 0px;
+    }
+
+    #desastrequimico {
+        width: 100%;
+        height: 1100px;
+        padding-left: 20px;
+    }
+
+    #desastrequimico h3 {
+        margin-left: 0%;
+    }
+
+    #desastrequimico .parrafo {
+        width: 53%;
+        float: left;
+        font-size: 1.25em;
+        margin-left: 5%;
+    }
+
+    #lux {
+        width: 100%;
+        height: 800px;
+        padding-left: 20px;
+    }
+
+    #lux h3 {
+        margin-left: 3%;
+    }
+
+    #lux .parrafo {
+        width: 53%;
+        float: left;
+        font-size: 1.25em;
+        margin-left: 5%;
+    }
+
+    #pirata {
+        width: 100%;
+        height: 850px;
+        padding-left: 20px;
+    }
+
+    #pirata h3 {
+        margin-left: 3%;
+    }
+
+    #pirata .parrafo {
+        width: 53%;
+        float: left;
+        font-size: 1.25em;
+        margin-left: 5%;
+    }
+
+    #logoquimico {
+        width: 250px;
+        height: 250px;
+    }
+
+    #logolux {
+        width: 250px;
+        height: 250px;
+    }
+
+    #logopirata {
+        width: 250px;
+        height: 250px;
+    }
+
+    .parrafo {
+        margin-left: 5%;
+    }
+
+    .boton_reserva {
+        float: left;
+        font-size: 30px;
+        font-family: 'Rubik vinyl', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        border: 3px white;
+        box-shadow: 4px 3px 4px #e9dce9;
+        margin-left: 40%;
+        margin-top: 20px;
+        margin-bottom: 30px;
+        padding-right: 20px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    /* ASIDE */
+    #reglas {
+        width: 100%;
+        margin-top: 120px;
+    }
+
+    #premios {
+        width: 100%;
+        height: 1005px;
+
+
+    }
+
+    #banner {
+        width: 100%;
+        margin-top: 5px;
+    }
+
+}
+
+
+
+
+/* TABLET HORIZONTAL */
+/* He cogido de referencia: Galaxy Tab S4 en Google Chrome (1138px x 712px) */
+@media screen and (max-width: 1138px) {
+    main {
+        width: 72%;
+        padding-left: 15px;
+        margin-left: 3%;
+    }
+
+    aside {
+        float: right;
+        width: 15%;
+        margin-right: 3%;
+        padding-right: 0px;
+    }
+
+
+    h1 {
+        padding-top: 10px;
+        font-size: 2.3em;
+    }
+
+    h3 {
+        font-size: 1.5em;
+        padding-left: 33%;
+
+    }
+
+    /* MAIN */
+    #footer {
+        width: 100%;
+    }
+
+
+    #footer .parrafo {
+        float: left;
+        margin-left: 0px;
+        font-size: 1.25em;
+    }
+
+    #logo_footer {
+        margin-left: 15px;
+    }
+
+    #desastrequimico {
+        width: 100%;
+        height: 950px;
+        padding-left: 20px;
+    }
+
+    #desastrequimico h3 {
+        margin-left: 0%;
+    }
+
+    #desastrequimico .parrafo {
+        width: 53%;
+        float: left;
+        font-size: 1.1em;
+    }
+
+    #lux {
+        width: 100%;
+        height: 650px;
+        padding-left: 20px;
+    }
+
+    #lux h3 {
+        margin-left: 3%;
+    }
+
+    #lux .parrafo {
+        width: 53%;
+        float: left;
+        font-size: 1.1em;
+    }
+
+    #pirata {
+        width: 100%;
+        height: 700px;
+        padding-left: 20px;
+    }
+
+    #pirata h3 {
+        margin-left: 3%;
+    }
+
+    #pirata .parrafo {
+        width: 53%;
+        float: left;
+        font-size: 1.1em;
+    }
+
+    #logoquimico {
+        width: 200px;
+        height: 200px;
+    }
+
+    #logolux {
+        width: 200px;
+        height: 200px;
+    }
+
+    #logopirata {
+        width: 200px;
+        height: 200px;
+    }
+
+    .parrafo {
+        margin-left: 5%;
+        padding-left: 0px;
+    }
+
+    .boton_reserva {
+        font-size: 25px;
+        margin-top: 20px;
+        margin-bottom: 30px;
+        padding-right: 20px;
+
+    }
+
+    /* ASIDE */
+    #reglas {
+        width: 100%;
+        margin-top: 120px;
+    }
+
+    #premios {
+        width: 100%;
+        height: 1005px;
+    }
+
+    #banner {
+        width: 100%;
+        margin-top: 5px;
+    }
+}
+
+
+
+
+/* TABLET VERTICAL */
+/* He cogido de referencia: Galaxy Tab S4 en Google Chrome (712px x 1138px) */
+@media screen and (max-width: 712px) {
+    main {
+        width: 70%;
+        padding-left: 0px;
+        margin-left: 3%;
+        padding-right: 0px;
+    }
+
+    aside {
+        float: right;
+        width: 19%;
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+
+    h1 {
+        font-size: 1.7em;
+    }
+
+    h3 {
+        font-size: 1.5em;
+        padding-left: 15%;
+        padding-bottom: 10px;
+    }
+
+    section header {
+        height: 150px;
+    }
+
+    /* MAIN */
+    #footer {
+        width: 100%;
+    }
+
+
+    #footer .parrafo {
+        font-size: .9em;
+        width: 60%;
+    }
+
+    #logo_footer {
+        margin-right: 0px;
+    }
+
+
+    #desastrequimico {
+        height: 1170px;
+        padding-left: 20px;
+    }
+
+    #desastrequimico h3 {
+        margin-left: 0%;
+    }
+
+    #desastrequimico .parrafo {
+        width: 87%;
+        float: left;
+        font-size: 1.1em;
+    }
+
+    #lux {
+        height: 960px;
+        padding-left: 20px;
+    }
+
+    #lux h3 {
+        margin-left: 13%;
+    }
+
+    #lux .parrafo {
+        width: 87%;
+        float: left;
+        font-size: 1.1em;
+    }
+
+    #pirata {
+        height: 1050px;
+        padding-left: 20px;
+    }
+
+    #pirata h3 {
+        margin-left: 2%;
+    }
+
+    #pirata .parrafo {
+        width: 87%;
+        float: left;
+        font-size: 1.1em;
+    }
+
+    #logoquimico {
+        width: 200px;
+        height: 200px;
+        margin-left: 27%;
+    }
+
+    #logolux {
+        width: 200px;
+        height: 200px;
+        margin-left: 27%;
+    }
+
+    #logopirata {
+        width: 200px;
+        height: 200px;
+        margin-left: 27%;
+    }
+
+    #instalaciones {
+        width: 350px;
+        margin-left: 14%;
+    }
+
+    .parrafo {
+        margin-left: 5%;
+        padding-left: 0px;
+    }
+
+    .boton_reserva {
+        font-size: 25px;
+        margin-left: 33%;
+    }
+
+
+    /* ASIDE */
+    #reglas {
+        margin-top: 140px;
+    }
+
+    #premios {
+        height: 500px;
+    }
+
+
+}
+
+
+
+
+/* TELEFONO HORIZONTAL */
+/* He cogido de referencia: iPhone SE (667px x 375px) */
+@media screen and (max-width: 667px) {
+
+    .parrafo_footer {
+        font-size: 1em;
+    }
+
+
+    #logo_footer {
+        width: 150px;
+        height: 150px;
+    }
+
+    #footer .parrafo {
+        width: 70%;
+        padding-right: 0px;
+    }
+
+}
+
+
+
+
+/* TELEFONO VERTICAL */
+/* He cogido de referencia: iPhone SE (375px X 667px) */
+@media screen and (max-width: 375px) {
+    main {
+        width: 65%;
+        padding-left: 0px;
+        margin-left: 3%;
+        padding-right: 0px;
+    }
+
+    aside {
+        float: right;
+        width: 20%;
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+
+    h1 {
+        font-size: 1em;
+    }
+
+    h3 {
+        display: none;
+    }
+
+    section header {
+        height: 100px;
+    }
+
+    /* MAIN */
+
+    #desastrequimico {
+        height: 1050px;
+        padding-left: 20px;
+    }
+
+    #desastrequimico h3 {
+        margin-left: 0%;
+    }
+
+    #desastrequimico .parrafo {
+        width: 87%;
+        float: left;
+        font-size: .9em;
+        text-align: left;
+    }
+
+    #lux {
+        height: 900px;
+        padding-left: 20px;
+    }
+
+    #lux h3 {
+        margin-left: 13%;
+    }
+
+    #lux .parrafo {
+        width: 87%;
+        float: left;
+        font-size: .9em;
+        text-align: left;
+    }
+
+    #pirata {
+        height: 950px;
+        padding-left: 20px;
+    }
+
+    #pirata h3 {
+        margin-left: 2%;
+    }
+
+    #pirata .parrafo {
+        width: 87%;
+        float: left;
+        font-size: .9em;
+        text-align: left;
+    }
+
+    #logoquimico {
+        width: 150px;
+        height: 150px;
+        margin-left: 14%;
+        margin-top: 20px;
+        margin-bottom: 0px;
+    }
+
+    #logolux {
+        width: 150px;
+        height: 150px;
+        margin-left: 14%;
+        margin-top: 20px;
+        margin-bottom: 0px;
+    }
+
+    #logopirata {
+        width: 150px;
+        height: 150px;
+        margin-left: 14%;
+        margin-top: 20px;
+        margin-bottom: 0px;
+    }
+
+    #instalaciones {
+        width: 200px;
+        margin-left: 4%;
+    }
+
+
+    #footer {
+        width: 100%;
+        height: 110px;
+    }
+
+    footer #footer {
+        height: 200px;
+    }
+
+    /* ASIDE */
+    #reglas {
+        margin-top: 100px;
+    }
+
+    #premios {
+        height: 250px;
+    }
+
+    /* FOOTER */
+    #footer .parrafo {
+        font-size: .5em;
+        width: 60%;
+        line-height: 60px;
+    }
+
+    #logo_footer {
+        margin-right: 0px;
+        width: 90px;
+        height: 90px;
+        margin-right: 10px;
+    }
+
+    .parrafo {
+        margin-left: 5%;
+        padding-left: 0px;
+    }
+
+    .boton_reserva {
+        font-size: 15px;
+        margin-left: 25%;
+    }
+
+    .parrafo_footer {
+        font-size: .7em;
+    }
+}
