@@ -11,9 +11,8 @@
 
 /* BODY */
 body {
-    position: relative;
-    width: 1903px;
-    height: 1600px;
+    width: auto;
+    height: auto;
     background: linear-gradient(to right, rgb(67, 23, 117), #160600);
 }
 
@@ -29,18 +28,19 @@ header{
 
 /* MAIN */
 main {
-    position: relative;
-    float: left;
-    /*width: 1280px;*/
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: stretch;
     width:100%;
-    height: 1350px;
+    height: auto;
 }
 
 
  /* FOOTER */
  footer{
-    position: relative;
-    float: left;
+    margin-top: 10%;
     width: 100%;
     height: 178px;
  }
@@ -51,24 +51,13 @@ main {
     margin-top: 10px;
     margin-bottom: 10px;
     margin-left: 100px;
-
+    width: 100%;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: stretch;
  }
-
- section header{
-    height: 70px;
-    margin-bottom: 20px;
- }
-
- section article{
-    width: 400px;
- }
-
- section footer{
-    float: left;
-    margin-bottom: 5px;
-    width: 50%;
- }
-
 
  /* SELECTOR POR ETIQUETA */
 h1 {
@@ -130,7 +119,7 @@ ul li :hover{
 }
 
 article div{
-    width: 600px;
+    /*width: 600px;*/
 }
 
 form{
@@ -177,21 +166,15 @@ form{
     text-align: center;
 }
 
-#encuentranos{
-    width: 820px;
-    float:left;
-}
 
 
 #mapa{
-    width: 600px;
-    float: left;
+    width: 100%;
 }
 
 
 /* SELECTOR POR CLASE */
 .parrafo{
-    width: 800px;
     font-family: 'Gruppo','Courier New', Courier, monospace;
     text-align: justify;
     color: white;
@@ -220,4 +203,142 @@ form{
     padding-bottom: 3px;
     font-size: 15px;
     background-color: #160600;
+}
+
+/*Responsive design*/
+/*Adaptación de ancho fijo de resoluciones de más de 1300px de ancho.*/
+@media screen and (min-width:1300px){
+    #contenedor{
+        max-width: 1300px;
+        margin: 0 auto;
+    }
+
+    body{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    article{
+        width: 40%
+    }
+
+    aside{
+        margin-right: 15%;
+        width: 40%
+    }
+}
+
+ /* TABLET HORIZONTAL*/
+ /* Referencia: Galaxy Tab S4 en google chrome (1138px x 712px)*/
+@media screen and (max-width: 1138px){
+    *{
+        color: yellow !important
+    }
+    
+    #mapa{
+        width: 90%
+    }
+
+    .parrafo{
+        padding-right: 10%
+    }
+
+}
+
+/* TABLET VERTICAL */
+/* Referencia: Galaxy Tab S4 en Google Chrome (712px x 1138px) */
+@media screen and (max-width: 712px){
+    *{
+        color: green !important
+    }
+    
+    #mapa{
+        width: 90%
+    }
+
+    .parrafo{
+        padding-right: 10%
+    }
+}
+
+/* TELEFONO HORIZONTAL */
+/* Referencia: iPhone SE (667px x 375px) */
+@media screen and (max-width: 667px) {
+    *{
+        color: orangered !important
+    }
+
+    h3{
+        padding-right: 10%
+    }
+
+    #logo_footer{
+        width: 120px;
+        height: 120px;
+        margin-top: 25px;
+        margin-bottom: 10px;
+        margin-left: 15px;
+
+    }
+
+    footer p{
+        margin-top: 20px !important;
+        width: 60%;
+        font-size: 14px !important
+
+    }
+}
+
+/* TELEFONO VERTICAL */
+/* Referencia: iPhone SE (375px X 667px) */
+@media screen and (max-width: 375px){
+    *{
+        color: lightblue !important;
+    }
+    #contacto {
+        width: 90%;
+    }
+
+    section{
+        margin-left: 10% !important;
+    }
+
+    form{
+        max-width: 300px;
+    }
+    textarea{
+        max-width: 90%;
+    }
+
+    h1{
+        font-size: 1.5em;
+    }
+
+    h3{
+        font-size: 1.5em;
+        text-decoration: none;
+    }
+    
+    #logo_footer{
+        width: 100px;
+        height: 100px;
+        margin-top: 25px;
+        margin-bottom: 10px;
+        margin-left: 15px;
+
+    }
+
+    footer{
+        display: flex;
+        flex-direction: row;
+    }
+
+
+    footer p{
+        float:right !important;
+        line-height: 15px !important;
+        padding: 0 !important;
+        margin: 50px auto !important
+    }
 }
