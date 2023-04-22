@@ -59,6 +59,10 @@ main {
     align-items: stretch;
  }
 
+ #input_form{
+    color:black
+}
+
  /* SELECTOR POR ETIQUETA */
 h1 {
     color:rgb(255, 243, 232);

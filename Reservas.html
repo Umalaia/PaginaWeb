@@ -70,10 +70,10 @@
                     <div id="formulario_reservas">
                         <form action="Reservar.jsp" method="get">
                             <label for="nombre">Nombre :</label>
-                            <input type="text" name="nombre" placeholder="Introduce tu nombre" required autofocus />
+                            <input id="input_form" type="text" name="nombre" placeholder="Introduce tu nombre" required autofocus />
                             </br> </br>
                             <label for="apellidos">Apellidos :</label>
-                            <input type="text" name="apellidos" placeholder="Introduce tus apellidos" required />
+                            <input id="input_form" type="text" name="apellidos" placeholder="Introduce tus apellidos" required />
                             </br> </br>
                             <label for="personas">Número de personas :</label>
                             <input id="input_form" type="number" min="2" max="8" step="1" name="personas"
@@ -83,7 +83,7 @@
                             </br>
                             &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
                             &nbsp; &nbsp; &nbsp; &nbsp;
-                            <input type="radio" name="experiencia" value="Quimico" /> <label class="opciones"> DESASTRE QUÍMICO</label>
+                            <input id="input_form" type="radio" name="experiencia" value="Quimico" /> <label class="opciones"> DESASTRE QUÍMICO</label>
                             </br>
                             &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
                             &nbsp; &nbsp; &nbsp; &nbsp;
@@ -108,13 +108,13 @@
                             </select>
                             </br> </br>
                             <label for="email">Email :</label>
-                            <input type="text" name="email" placeholder="Email" required />
+                            <input id="input_form" type="text" name="email" placeholder="Email" required />
                             </br> </br>
                             <label for="observaciones">Observaciones :</label>
                             </br> <textarea rows="5" cols="80" name="observaciones"
                                 placeholder="Escribe aquí tu comentario"></textarea>
                             </br> </br>
-                            <input type="checkbox" name="responsabilidad" required /> Marcando esta casilla, confirmamos que en el grupo hay una persona mayor de edad.
+                            <input id="input_form" type="checkbox" name="responsabilidad" required /> Marcando esta casilla, confirmamos que en el grupo hay una persona mayor de edad.
                             </br> </br>
                             <input class="boton_enviar" type="submit" value="Enviar" />
                             <input class="boton_enviar" type="reset" />
