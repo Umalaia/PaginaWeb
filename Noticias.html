@@ -1,10 +1,320 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
+
 <head>
     <meta charset="UTF-8" />
-    <title>Noticias</title>
+    <title>Pagina Escape-Room</title>
+    <link rel="stylesheet" type="text/css" href="/CSS/Noticias.css" />
 </head>
+
 <body>
-    
+    <!-- Inicio de la cabecera-->
+    <header id="header">
+        <div id="logotipo">
+            <img src="img/Nexus.png" alt="Logotipo de la Web" />
+        </div>
+
+        <h1>
+            <a href="/Home.html">
+                Escape-Room
+            </a>
+        </h1>
+    </header>
+    <!-- Fin de la cabecera-->
+
+    <!--Menú de navegación-->
+    <nav id="nav">
+        <ul>
+            <li>
+                <a href="/Home.html">Home</a>
+            </li>
+            <li>
+                <a href="Noticias.html">Noticias</a>
+                <ul>
+                    <li>
+                        <a href="https://www.google.es/">Eventos</a>
+                    </li>
+                    <li>
+                        <a href="https://es.wikipedia.org/wiki/Rumor">Rumores</a>
+                    </li>
+                    <li>
+                        <a href="Index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="QuienesSomos.html">Quienes Somos</a>
+                    </li>
+                    <li>
+                        <a href="Áreas de Actuación.html">Áreas de Actuación</a>
+                    </li>
+                    <li>
+                        <a href="Contacto.html">Contacto</a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="Publicaciones.html">Publicaciones</a>
+            </li>
+            <li>
+                <a href="Localizacion.html">Localizacion</a>
+            </li>
+
+            <li>
+                <a href="QuienesSomos.html">Quienes somos</a>
+            </li>
+            <li>
+                <a href="Áreas de Actuación.html">Áreas de Actuación</a>
+                <ul>
+                    <li>
+                        <a href="/03_sabuza.html">Sabuza</a>
+                    </li>
+                    <li>
+                        <a href="#">Fantasia "En Construcción"</a>
+                    </li>
+                    <li>
+                        <a href="#">Jumishe "No Disponible"</a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="Contacto.html">Contacto</a>
+            </li>
+        </ul>
+    </nav>
+    <!--Fin del menú navegación-->
+
+    <!--Inicio del contenido central-->
+
+    <div id="content">
+        <!--Inicio de la barra lateral-->
+        <aside id="aside">
+            <div class="widget" id="login"> 
+                <h3>Registro a la web</h3>
+                <form>
+                    <label>Usuario:</label>
+                    <input type="text" />
+
+                    <label>Contraseña:</label>
+                    <input type="password" />
+
+                    <input type="submit" value="Entrar" />
+                   
+                    <a href="#">Zona de Socios</a>
+                    <a href="#">Zona de Frikis</a>
+                    <a href="#">Acceso Restringido</a>
+                </form>
+            </div>
+
+            <div class="widget" id="login"> 
+                <h3 class="blue">Sala Sabuza</h3>
+                <form>
+                    <label>Nombre de usuario:</label>
+                    <input type="text" />
+                    <label>Contraseña:</label>
+                    <input type="password" />
+                    <input type="submit" value="Entrar" />
+                </form>
+            </div>
+
+            <div class="widget" id="login"> 
+                <h3 class="red">Sala Jumishe</h3>
+                <form>
+                    <label>Nombre de usuario:</label>
+                    <input type="text" />
+                    <label>Contraseña:</label>
+                    <input type="password" />
+                    <input type="submit" value="Entrar" />
+                </form>
+            </div>
+
+            <div class="widget" id="login"> 
+                <h3>Enlace de interes</h3>
+                <ul>
+                    <li>
+                        <a href="https://google.es">
+                           Cómo gestionar el miedo
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://google.es">
+                            Método para no estresar al grupo
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://google.es">
+                            Manual supervivencia
+                        </a>
+                    </li>
+                </ul>
+
+            </div>
+        </aside>
+        <!--Fin de la barra lateral-->
+
+        <!--Inicio de las Secciones-->
+        <div id="sections">
+
+            <section id="Sabuza">
+                <span class="stickers">
+                    <img class="stickerOne" src="img/scotch.png" alt="Pegatina" />
+                    <img class="stickerTwo" src="img/scotch.png" alt="Pegatina" />
+                </span>
+                <h2 class="titulo">Noticias Sabuza</h2>
+                <article class="article">
+                    <p>
+                        <a href="#">Titulo de la entrada</a>
+                        Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum
+                        ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N.
+                        del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló
+                        de tal manera que logró hacer un libro de textos especimen.
+                    </p>
+                    <span class="date">[20-01-2023. Sr.X]</span>
+
+                </article>
+                <article class="article">
+                    <p>
+                        <a href="#">Titulo de la entrada</a>
+                        Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum
+                        ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N.
+                        del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló
+                        de tal manera que logró hacer un libro de textos especimen.
+                    </p>
+                    <span class="date">[20-02-2023. Anónimo]</span>
+                </article>
+                <article class="article">
+                    <p>
+                        <a href="#">Titulo de la entrada</a>
+                        Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum
+                        ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N.
+                        del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló
+                        de tal manera que logró hacer un libro de textos especimen.
+                    </p>
+                    <span class="date">[20-04-2023. Judas]</span>
+                </article>
+                <article class="article">
+                    <p>
+                        <a href="#">Titulo de la entrada</a>
+                        Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum
+                        ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N.
+                        del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló
+                        de tal manera que logró hacer un libro de textos especimen.
+                    </p>
+                    <span class="date">[21-04-2023. Anonimox]</span>
+                </article>
+
+            </section>
+            <section id="Jumishe">
+                <span class="stickers">
+                    <img class="stickerOne" src="img/scotch.png" alt="Pegatina" />
+                    <img class="stickerTwo" src="img/scotch.png" alt="Pegatina" />
+                </span>
+                <h2 class="titulo red">Noticias de Jumishe</h2>
+                <article class="article">
+                    <p>
+                        <a href="#">Titulo de la entrada</a>
+                        Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum
+                        ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N.
+                        del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló
+                        de tal manera que logró hacer un libro de textos especimen.
+                    </p>
+                    <span class="date">[01-12-2022. Uno]</span>
+                </article>
+                <article class="article">
+                    <p>
+                        <a href="#">Titulo de la entrada</a>
+                        Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum
+                        ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N.
+                        del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló
+                        de tal manera que logró hacer un libro de textos especimen.
+                    </p>
+                    <span class="date">[03-02-202. Dos]</span>
+                </article>
+                <article class="article">
+                    <p>
+                        <a href="#">Titulo de la entrada</a>
+                        Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum
+                        ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N.
+                        del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló
+                        de tal manera que logró hacer un libro de textos especimen.
+                    </p>
+                    <span class="date">[04-02-2022. Amparito]</span>
+                </article>
+                <article class="article">
+                    <p>
+                        <a href="#">Titulo de la entrada</a>
+                        Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum
+                        ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N.
+                        del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló
+                        de tal manera que logró hacer un libro de textos especimen.
+                    </p>
+                    <span class="date">[08-02-2021. Madre de Amparito]</span>
+                </article>
+            </section>
+            <section id="fantasia">
+                <span class="stickers">
+                    <img class="stickerOne" src="img/scotch.png" alt="Pegatina" />
+                    <img class="stickerTwo" src="img/scotch.png" alt="Pegatina" />
+                </span>
+                <h2 class="titulo orange">Noticias de fantasia</h2>
+                <article class="article">
+                    <p>
+                        <a href="#">Titulo de la entrada</a>
+                        Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum
+                        ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N.
+                        del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló
+                        de tal manera que logró hacer un libro de textos especimen.
+                    </p>
+                    <span class="date">[17-08-2022. Misser]</span>
+                </article>
+                <article class="article">
+                    <p>
+                        <a href="#">Titulo de la entrada</a>
+                        Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum
+                        ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N.
+                        del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló
+                        de tal manera que logró hacer un libro de textos especimen.
+                    </p>
+                    <span class="date">[15-08-2021. Odin]</span>
+                </article>
+                <article class="article">
+                    <p>
+                        <a href="#">Titulo de la entrada</a>
+                        Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum
+                        ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N.
+                        del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló
+                        de tal manera que logró hacer un libro de textos especimen.
+                    </p>
+                    <span class="date">[10-09-2021. Regodin]</span>
+                </article>
+                <article class="article">
+                    <p>
+                        <a href="#">Titulo de la entrada</a>
+                        Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum
+                        ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N.
+                        del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló
+                        de tal manera que logró hacer un libro de textos especimen.
+                    </p>
+                    <span class="date">[31-12-2021. Uno Mismamente]</span>
+                </article>
+            </section>
+        </div>
+        <!--Fin de las Secciones-->
+
+        <aside id="frase">
+            Apartado reservado para las frases y predicciones de Sr.Iker J. 
+            <a href="#">leer mas frases</a>
+        </aside>
+        <div class="clearfix"></div> 
+        <div id="history">
+            <a href="#">[Ver historico de noticias]</a>
+        </div>
+
+    </div>
+    <!--Fin del contenido central-->
+    <div class="clearfix"></div>
+    <footer id="footer">
+        <p>&copy; Desarrollado por .... WEB</p>
+        <p>Más contenido e informacion  en <a href="https://www.google.es">google.es</a></p>
+    </footer>
 </body>
+
 </html>

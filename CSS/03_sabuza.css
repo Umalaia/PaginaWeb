@@ -1,0 +1,74 @@
+
+
+body{
+    background-color: rgb(245, 240, 240);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#container{
+
+}
+header{
+    margin: 0px;
+    color: rgb(10, 239, 255);
+    text-align: center;
+    height: 50px;
+}
+
+
+nav{
+    background-color: rgb(247, 200, 59);
+    
+    padding : 1px;
+}
+
+a {
+    font-family: "Open Sans";
+    color: rgb(10, 114, 242);
+    text-decoration:none;
+    background-color: rgb(182, 179, 188);
+    padding: 5px; ;
+    border-radius: 100px;
+    
+}
+h2 b{
+    color:gold;
+}
+
+h4{
+    color :rgb(238, 47, 47);
+}
+
+.Objetivo b:hover{
+    color : rgb(228, 7, 118);
+}
+.Finalidad b:hover{
+    color:brown;
+}
+.contact-form{
+    color:blue
+}
+
+#content{
+    float:left;
+    width: 80%;
+    min-height: 500px;
+    background: rgb(222, 224, 219);
+}
+
+.article{
+    color:aqua;
+}
+
+aside{
+    float: right;
+    width: 10%;
+    background: rgb(5, 201, 245);   
+}
+footer{
+    background: black;
+    color:aqua;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+}

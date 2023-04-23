@@ -1,2 +1,215 @@
-/* CSS LOCALIZACION */
+/*ESTILOS GENERALES*/
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
 
+#general {
+    width: 1200px;
+    margin: 0px auto;
+    border: 1px solid #ccc;
+    
+}
+/*HEADER*/
+#header {
+    width: 100%;
+    height: 100px;
+    background: rgb(15, 118, 236);
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    line-height: 90px;
+   
+}
+
+.clearfix {
+    float: none;
+    clear: both;
+}
+
+/*BARRA DE NAVEGACIÓN*/
+#nav {
+    width: 100%;
+    height: 40px;
+    background-color: #333333;
+    color: white;
+    font-family: sans-serif, helvetica, Arial;
+    font-size: 14px;
+    box-shadow: 0px 0px 2px gray;
+
+}
+
+#nav ul {
+    list-style: none;
+    text-decoration: none;
+    margin: 0px auto;
+    width: 1090px;
+
+}
+
+#nav>ul>li {
+
+    text-align: center;
+    line-height: 40px;
+    float: left;
+    border-right: #333333;
+    transition: all 300ms;
+
+}
+
+#nav>ul>li a {
+    display: block;
+    padding-right: 20px;
+    color: white;
+    text-decoration: none;
+
+}
+
+#nav>ul>li a:first-child {
+    border-left: 1px solid #333333;
+}
+
+#nav>ul>li:hover {
+    background-color: lightskyblue;
+    box-shadow: 0px 0px 4px blue inset;
+}
+
+/*MENU DESPLEGABLE*/
+
+#nav>ul>li>ul {
+
+    display: none;
+    position: absolute;
+    width: 160px;
+    box-shadow: 0px 2px 2px gray;
+    z-index: 1;
+    text-align: center;
+
+}
+
+#nav>ul>li:hover>ul {
+    display: block;
+}
+
+#nav>ul>li:hover>ul>li {
+    background-color: #f2f1F0;
+    border-bottom: 1px solid #d6d6d6;
+    padding: 8px;
+    line-height: 25px;
+    font-size: 13px;
+    transition: all 300ms;
+}
+
+#nav>ul>li:hover>ul>li a {
+    color: #666666;
+}
+
+#nav>ul>li:hover>ul>li:hover {
+    background-color: lightskyblue;
+
+
+}
+/*CONTENIDO*/
+#contenido {
+    width: 50%;
+    float: left;
+}
+/*BARRA LATERAL*/
+#Blateral {
+    margin-top: 30px;
+    float: left;
+    height: 350px;
+    width: 49%;
+    border: 2px dashed rgb(0, 51, 255);
+    min-height: 200px;
+    max-height: 350px;
+    text-align: center;
+    overflow-y: scroll;
+ 
+}
+
+#contenido>h1 {
+    text-align: center;
+    border-bottom: 1px solid blue;
+    padding: 15px;
+    color: #444;
+    text-shadow: 0px 0px 5px gray;
+    
+}
+
+#contenido .caja {
+    width: 40%;
+    height: 250px;
+    background: rgb(255, 21, 0);
+    border: 3px solid blue;
+    color: white;
+    float: left;
+    margin: 20px;
+    margin-left: 40px;
+    text-align: center;
+    line-height: 200px;
+    color: #444444;
+    text-transform: uppercase;
+    box-shadow: 5px 5px 10px black;
+    border-radius: 50px;
+   
+}
+
+.imagen {
+    margin-top: 25px;
+    width: 100%;
+    height: 300%;
+    padding-left: 30px;
+    border: 5 px solid blue;
+}
+
+.imagen img {
+    padding: 30px;
+}
+/*LOCAL*/
+.local {
+    position: absolute;
+    top: 813px;
+    left: 36%;
+    text-align: center;
+    border-radius: 50px;
+    background-color: red;
+    color: white;
+    width: 50px;
+    height: 35px;
+    font-size: 13px;
+
+}
+
+.loca2 {
+    background-color: green;
+    top: 899px;
+    left: 43%;
+    border-radius: 50px;
+}
+
+.loca3 {
+    background-color: blue;
+    top: 664px;
+    left: 48%;
+    border-radius: 50px;
+
+}
+
+.loca4 {
+    background-color: rgb(85, 0, 255);
+    top: 706px;
+    left: 64.5%;
+    border-radius: 50px;
+}
+/*FOOTER*/
+#footer {
+    width: 100%;
+    height: 55px;
+    line-height: 55px;
+    background: #333333;
+    text-align: center;
+    color: lightskyblue;
+    border-top: 1px solid black;
+}

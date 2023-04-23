@@ -1,2 +1,32 @@
 /* CSS CONTACTO */
 
+#usuario form {
+    border: 5px solid blue;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#usuario form * {
+    display: block;
+}
+
+input[type="text"] {
+    padding: 3px;
+}
+
+input[type="submit"]{
+    background: greenyellow;
+    font-size: 15px;
+    text-transform: uppercase;
+    cursor : pointer;
+}
+
+#menu a{
+    font-size: 18px;
+    color:chocolate;
+    text-decoration: none;
+}
+h3{
+    font-family:'Mansalva', cursive;
+    font-size: 45px;
+}
