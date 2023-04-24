@@ -59,9 +59,7 @@ main {
     align-items: stretch;
  }
 
- #input_form{
-    color:black
-}
+
 
  /* SELECTOR POR ETIQUETA */
 h1 {
@@ -170,7 +168,9 @@ form{
     text-align: center;
 }
 
-
+#input_form{
+    color:black
+}
 
 #mapa{
     width: 100%;
@@ -209,11 +209,12 @@ form{
     background-color: #160600;
 }
 
+
 /*Responsive design*/
 /*Adaptación de ancho fijo de resoluciones de más de 1300px de ancho.*/
 @media screen and (min-width:1300px){
     #contenedor{
-        max-width: 1300px;
+        width: 100%;
         margin: 0 auto;
     }
 

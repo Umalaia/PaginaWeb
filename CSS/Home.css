@@ -234,6 +234,7 @@ ol li :hover {
     height: 440px;
     margin-bottom: 50px;
     box-shadow: 0px 0px 30px black;
+    overflow: auto;
 }
 
 
@@ -241,6 +242,7 @@ ol li :hover {
     height: 460px;
     margin-bottom: 50px;
     box-shadow: 0px 0px 30px black;
+    overflow: auto;
 }
 
 
@@ -248,6 +250,7 @@ ol li :hover {
     height: 490px;
     margin-bottom: 20px;
     box-shadow: 0px 0px 30px black;
+    overflow: auto;
 }
 
 
