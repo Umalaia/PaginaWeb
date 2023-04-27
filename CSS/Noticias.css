@@ -37,9 +37,10 @@ nav a:hover {
 }
 
 body{
+    max-width: 1300px;
     position: relative;
     background-color: #C3C3C3 ;
-    margin: auto
+    margin: auto;
 }
 
 /*Estilo de los article de la página: botones leer más/menos */

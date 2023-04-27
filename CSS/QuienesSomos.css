@@ -57,7 +57,7 @@ section{
     margin-left: 30%;
     margin-right: 10%;
     margin-bottom: 1%;
-    background: radial-gradient( #C3C3C3, #e06666)
+    background: radial-gradient( #C3C3C3, #413b3b)
 }
 
 .personal{
@@ -65,7 +65,7 @@ section{
     height:50%;
     padding: 2%;
     justify-content: center;
-    background: radial-gradient( #C3C3C3, #e06666)
+    background: radial-gradient( #C3C3C3, #413b3b)
    
 }
 
@@ -82,7 +82,7 @@ label{
 footer{
     width: 30%;
     border: solid;
-    background: linear-gradient(#C3C3C3, #e06666);
+    background: linear-gradient(#C3C3C3, #c92121);
     margin-left: 35%;
     margin-bottom: 2%;
 }

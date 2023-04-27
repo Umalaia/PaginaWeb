@@ -36,8 +36,10 @@ nav a:hover {
 }
 
 body{
+    max-width: 1300px;
+    position: relative;
     background-color: #C3C3C3 ;
-    margin: auto
+    margin: auto;
 }
 
 h2{

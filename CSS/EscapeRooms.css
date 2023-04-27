@@ -40,6 +40,8 @@ nav a:hover {
 /* Estructura general de la página */
 
 body{
+    max-width: 1300px;
+    position: relative;
     background-color: #C3C3C3 ;
     margin: auto;
 }
