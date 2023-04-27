@@ -51,6 +51,9 @@ footer{
     margin-bottom: 2%;
 }
 
+article{
+    width:60%;
+}
 /*Estilo de los article de la página: botones leer más/menos */
 
 .ch {
