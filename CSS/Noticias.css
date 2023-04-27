@@ -43,6 +43,14 @@ body{
     margin: auto;
 }
 
+footer{
+    width: 30%;
+    border: solid;
+    background: linear-gradient(#C3C3C3, #c92121);
+    margin-left: 35%;
+    margin-bottom: 2%;
+}
+
 /*Estilo de los article de la página: botones leer más/menos */
 
 .ch {

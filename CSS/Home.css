@@ -115,5 +115,9 @@ aside:hover{
 
 footer{
     margin-left: 30%;
-    clear: both
+    clear: both;
+    border: solid;
+    background: linear-gradient(#C3C3C3, #c92121);
+    width:35%;
+    text-align: center;
 }
