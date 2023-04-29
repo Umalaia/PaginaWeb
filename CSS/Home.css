@@ -1,4 +1,8 @@
+
 /* General */
+
+/* CSS INDEX */
+
 
 *{
     margin:0px;
@@ -57,7 +61,7 @@ ol li {
 }
 
 ul {
-    margin-left: 12%;
+    text-align: center;
 }
 
 ul li {
@@ -174,7 +178,7 @@ ol li :hover {
 
 
 #pirata {
-    height: 490px;
+    height: 500px;
     margin-bottom: 20px;
     box-shadow: 0px 0px 30px black;
     overflow: auto;
@@ -264,8 +268,103 @@ nav ul li{
     line-height: 30px;
 }
 
+
 .clearfix{
     clear:both;
+}
+
+/* RESPONSIVE*/
+/* Adaptación de ancho fijo de resoluciones de más de 1300px de ancho.*/
+@media screen and (min-width: 1300px) {
+    main {
+        width: 70%;
+        margin-left: 50px;
+    }
+
+    nav ul li {
+        font-size: 34px;
+    }
+
+    h4 {
+        font-size: 1.4em;
+    }
+
+    h5 {
+        font-size: 1.2em;
+    }
+
+    aside {
+        width: 15%;
+        margin-right: 50px;
+    }
+
+    /* MAIN */
+    #introduccion {
+        height: 150px;
+    }
+
+    #desastrequimico .parrafo {
+        width: 62%;
+        font-size: 1.3em;
+    }
+
+    #desastrequimico h3 {
+        margin-left: 31%;
+        padding-left: 0px;
+    }
+
+    #lux .parrafo {
+        width: 62%;
+        font-size: 1.3em;
+    }
+
+    #lux h3 {
+        margin-left: 31%;
+        padding-left: 0px;
+    }
+
+    #pirata .parrafo {
+        width: 62%;
+        font-size: 1.3em;
+    }
+
+    #pirata h3 {
+        margin-left: 31%;
+        padding-left: 0px;
+    }
+
+    #logoquimico {
+        width: 20%;
+    }
+
+    #logolux {
+        width: 20%;
+    }
+
+    #logopirata {
+        width: 20%;
+    }
+
+    #banner {
+        width: 100%;
+    }
+
+    #premios {
+        height: 600px;
+        width: 100%;
+    }
+
+    .boton_info {
+        font-size: 20px;
+        margin-left: 32%;
+        padding-top: 10px;
+    }
+
+    .boton_reserva {
+        font-size: 20px;
+        padding-top: 10px;
+    }
+
 }
 
 #content{
