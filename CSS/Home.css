@@ -1,4 +1,4 @@
-/* CSS HOME */
+/* CSS INDEX */
 
 /* TODO */
 
@@ -130,7 +130,7 @@ ol li {
 }
 
 ul {
-    margin-left: 12%;
+    text-align: center;
 }
 
 ul li {
@@ -348,7 +348,7 @@ ol li :hover {
     }
 
     nav ul li {
-        font-size: 26px;
+        font-size: 34px;
     }
 
     h4 {
