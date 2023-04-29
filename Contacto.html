@@ -1,147 +1,128 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, user-scalable=no">
-    <link rel="stylesheet" type="text/css" href="CSS/Contacto.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <!-- FUENTES -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gruppo&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nabla&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Arbutus&family=Rubik+Vinyl&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Megrim&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Ruslan+Display&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="CSS/Contacto.css">
+    <link rel="stylesheet" href="CSS/Desplegable.css">
+
 </head>
 
 <body>
     <div id="contenedor">
-        <!--Header-->
-        <header>
-            <img id="logo" src="/img/fondolog.png" alt="Logo salas">
+        <!-- INICIO HEADER -->
+        <header id="header">
+            <!-- INICIO NAV -->
+            <nav class="menu">
+                <input checked="checked" class="menu-toggler" type="checkbox">
+                <img id="logo_menu" src="img/logo.png">
+                <label for="menu-toggler"> </label>
+                <ul>
+                    <li class="menu-item">
+                        <a href="Noticias.html"> <img id="news" src="img/5.png"/> </a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="QuienesSomos.html"> <img id="us" src="img/3.png"/></a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="Contacto.html"><img id="contact" src="img/9.png"/></a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="Reservas.html"> <img id="calendar" src="img/6.png"/></a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="EscapeRooms.html""> <img id="scape" src="img/4.png"/></a>
+                  </li>
+                  <li class=" menu-item">
+                            <a href="index.html"><img id="inicio" src="img/1.png"/></a>
+                    </li>
+                </ul>
+            </nav>
+            <!-- FIN NAV -->
         </header>
-        <!--Menú de navegación-->
-        <nav id="nav">
-            <ul>
-                <li>
-                    <a href="/Home.html">Home</a>
-                    <ul>
-                        <li>
-                            <a href="/noticias.html">Noticias</a>
-                        </li>
-                        <li>
-                            <a href="/Publicaciones.html">Publicaciones</a>
-                        </li>
-                        <li>
-                            <a href="/Localizacion.html">Localización</a>
-                        </li>
-                        <li>
-                            <a href="/QuienesSomos.html">Quienes Somos</a>
-                        </li>
-                        <li>
-                            <a href="/03_sabuza.html">Áreas de Actuación</a>
-                        </li>
-                        <li>
-                            <a href="Contacto.html">Contacto</a>
-                        </li>
-                    </ul>
-                </li>
-                <li>
-                    <a href="Noticias.html">Noticias</a>
-                </li>
-                <li>
-                    <a href="Localizacion.html">Localización</a>
-                </li>
-
-                <li>
-                    <a href="QuienesSomos.html">Quienes somos</a>
-                </li>
-                <li>
-                    <a href="03_sabuza.html">Áreas de Actuación</a>
-                    <ul>
-                        <li>
-                            <a href="/03_sabuza.html">Sabuza</a>
-                        </li>
-                        <li>
-                            <a href="#">Fantasia "En Construcción"</a>
-                        </li>
-                        <li>
-                            <a href="#">Jumishe "No Disponible"</a>
-                        </li>
-
-                    </ul>
-                </li>
-                <li>
-                    <a href="Contacto.html">Contacto</a>
-                </li>
-            </ul>
-        </nav>
+        <!-- FIN HEADER -->
 
 
-            <form id="RellenarFormulario" action="Reservar.jsp" method="get">
-                <label>Nombre:</label><INPUT TYPE="text" NAME="nombre" SIZE=18 MAXLENGTH=18
-                    placeholder="Escribe tu nombre." required><br /><br />
-                <label>Apellidos:</label><INPUT TYPE="text" NAME="apellidos" SIZE=48 MAXLENGTH=48
-                    placeholder="Escribe tus apellidos." required></label><br /><br />
-                <label>DNI</label><INPUT TYPE="text" NAME="dni" SIZE=8 MAXLENGTH=8><br /><br />
-                <label>Teléfono:</label><INPUT TYPE="text" NAME="telefono" SIZE=19 MAXLENGTH=19><br /><br />
-                <label>Email</label> <INPUT TYPE="email" NAME="email" PLACEHOLDER="email@email.com" required><br /><br />
-                <label>Área elegida:</label>
-                <SELECT NAME="Rooms">
-                    <option value="default" selected>Seleccione una... </option>
-                    <option value="value1">Jumishe</option>
-                    <option value="value2">Sabuza</option>
-                    <option value="value3">Pirata</option>
-                    <option value="value4">Desastre Quimico</option>
-                </SELECT><br /><br />
-                <label>Fecha de reserva:</label><input type="date" name="fecha" required />
-                <br /><br />
-                <INPUT TYPE="submit" VALUE="Enviar datos ">
-                <INPUT TYPE="reset" VALUE="Borrar los datos">
-            </form>
-        
-            <aside id="Blateral">
-                <div class="caja">
-                    <h2>Instrucciones del Formulario</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum quis lectus sed leo fringilla
-                        tempor a id eros. Nulla non varius elit. Curabitur aliquet quam leo, nec egestas mi facilisis in.
-                        Vestibulum venenatis, purus pretium vestibulum viverra, quam metus aliquam purus, ac rutrum erat
-                        justo a orci. Aenean posuere scelerisque est, at pretium felis porttitor eget. Phasellus ut
-                        dignissim dui. Vestibulum ultrices nulla a malesuada hendrerit. Sed eu erat laoreet, volutpat odio
-                        in, tincidunt neque.
-    
-                        Vestibulum vitae tortor urna. Quisque lacinia maximus ante et hendrerit. Aliquam massa turpis,
-                        hendrerit imperdiet dapibus in, rhoncus sit amet magna. Sed pretium enim ac laoreet dignissim. Nam
-                        eu vehicula metus. Mauris sit amet porttitor leo, sed laoreet libero. Phasellus a sodales dolor, et
-                        consequat ligula. Praesent at finibus dolor. Integer nec dolor nunc. Nunc in leo ullamcorper,
-                        ultricies metus sed, blandit orci.
-    
-                        Vivamus faucibus eros arcu, ac aliquam nibh pellentesque sed. Nullam vulputate urna odio, ut
-                        molestie metus maximus vitae. Phasellus ut dolor ante. Etiam scelerisque eros id quam consectetur,
-                        at sagittis enim blandit. Mauris sit amet tellus erat. Phasellus elementum laoreet nulla vel
-                        blandit. Ut eu volutpat purus. Nunc bibendum, purus vitae aliquam iaculis, dolor purus vestibulum
-                        quam, sed aliquam nibh urna id leo.
-    
-                        Proin justo sapien, dapibus porttitor arcu nec, vestibulum mattis velit. Suspendisse lectus felis,
-                        ornare quis sapien vestibulum, fringilla commodo justo. Duis dapibus tristique dignissim. Donec
-                        sollicitudin tristique lectus, vitae efficitur mauris varius eget. Quisque dignissim eget mauris in
-                        tempus. Vestibulum est ipsum, rhoncus quis porttitor in, placerat sed purus. Cras interdum tellus
-                        eget auctor luctus. Donec blandit quis quam ac consectetur. Nulla in malesuada felis. Vestibulum
-                        ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;
-    
-                        Fusce elementum tellus metus, eget volutpat mauris blandit a. Quisque in malesuada tellus, id
-                        commodo odio. Suspendisse id quam et dui consectetur rhoncus. Vivamus sagittis facilisis urna, id
-                        tempus augue. Mauris pretium facilisis magna, in viverra felis luctus at. Fusce fermentum vehicula
-                        mattis. Curabitur semper vel nulla ut lacinia. Curabitur ut lectus maximus felis rhoncus blandit.
-                        Nulla iaculis cursus tempus. In ut lacus augue.
-    
-                    </p>
-                </div>
-                <div class="clearfix"></div>
+        <!-- INICIO MAIN -->
+        <main>
+            <!-- INICIO SECCION PRINCIPAL -->
+            <section>
+                <!-- ARTICULO SECCION PRINCIPAL -->
+                <article>
+                    <div id="contacto">
+                        <h1> Contacto </h1>
+                        <form action="Contactar.jsp" method="get">
+                            <label for="nombre">Nombre :</label>
+                            <input id="input_form" type="text" name="nombre" placeholder="Introduce tu nombre" required autofocus />
+                            </br> </br>
+                            <label for="apellidos">Apellidos :</label>
+                            <input id="input_form" type="text" name="apellidos" placeholder="Introduce tus apellidos" required />
+                            </br> </br>
+                            <label for="telefono">Teléfono :</label>
+                            <input id="input_form" type="tel" name="telefono" placeholder="Teléfono" />
+                            </br> </br>
+                            <label for="email">Email :</label>
+                            <input id="input_form" type="text" name="email" placeholder="Introduce tu Email" required />
+                            </br> </br>
+                            <label for="mensaje">Mensaje :</label>
+                            </br> <textarea id="input_form" rows="8" cols="60" name="observaciones"
+                                placeholder="Contenido del mensaje "></textarea>
+                            </br> </br>
+                            <input class="boton_enviar" type="submit" value="Enviar" />
+                            </br> </br>
+                        </form>
+                    </div>
+                    <!-- Fin del formulario de reserva-->
+                </article>
+                <!-- FIN ARTICULO SECCION PRINCIPAL -->
 
-        
-    </div>
-
-    <footer id="footer">
-        <p class="parrafo">Todos los derechos reservados &copy; Juanjo</p>
-    </footer>
-
+                <!-- PIE SECCION PRINCIPAL -->
+                <aside>
+                    <div id="encuentranos">
+                        <h1> JUMISHE SCAPE ROOM </h1>
+                        <h3> Encuentranos en la Calle Diego de Leon</h3>
+                        <p class="parrafo"> Conexión con las lineas 4, 5, 6 y 9 de Metro, en las paradas Diego de León y Nuñez de Balboa.
+                        </p>
+                        <p class="parrafo"> También puedes contactarnos al 659875214. </p>
+                        <iframe id="mapa"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3036.827670672591!2d-3.68329892351632!3d40.43481465453761!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd4228c06589de9d%3A0x6d8262bf27131b0a!2sCalle%20de%20Diego%20de%20Le%C3%B3n%2C%2028006%20Madrid!5e0!3m2!1ses!2ses!4v1681827175658!5m2!1ses!2ses"
+                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                    <div class="clearboth"> </div>
+                </aside>
+                <!-- FIN PIE SECCION PRINCIPAL -->
+            </section>
+            <!-- FIN SECCION PRINCIPAL -->
+        </main>
+        <!-- FIN MAIN -->
+        <!-- INICIO FOOTER -->
+        <footer id="footer">
+            <img id="logo_footer" src="img/logo.png" alt="logo" title="Logo JUMISHE" />
+            <p class="parrafo">Todos los derechos reservados &copy; Sheila Orejuela Valenzuela</p>
+        </footer>
+<!-- FIN FOOTER -->
 
     </div>
+
 </body>
 
+
+
+</body>
 </html>
