@@ -1,39 +1,147 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-    <meta charset="UTF-8" />
-    <title>Contacto</title>
-    <link rel="stylesheet" href="css/Contacto.css"/>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Mansalva&display=swap" rel="stylesheet">   
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <link rel="stylesheet" type="text/css" href="CSS/Contacto.css" />
 </head>
+
 <body>
-    <div id="menu">
-    <h3>RESERVAS</h3>
-    <nav>
-        <ul>
-            <li><a href="Home.html">Home</a></li>
-            <li><a href="Noticias.html">Noticias</a></li>
-            <li><a href="Publicacion">Publicaciones</a></li>
-            <li><a href="Localizacion.html">Localización</a></li>
-            <li><a href="QuienesSomos.html">Quienes Somos</a></li>
-            <li><a href="Áreas de Actuación.html">Áreas de actuación</a></li>
-            <li><a href="Reservas.html">Contacto</a></li>
-        </ul>
+    <div id="contenedor">
+        <!--Header-->
+        <header>
+            <img id="logo" src="/img/fondolog.png" alt="Logo salas">
+        </header>
+        <!--Menú de navegación-->
+        <nav id="nav">
+            <ul>
+                <li>
+                    <a href="/Home.html">Home</a>
+                    <ul>
+                        <li>
+                            <a href="/noticias.html">Noticias</a>
+                        </li>
+                        <li>
+                            <a href="/Publicaciones.html">Publicaciones</a>
+                        </li>
+                        <li>
+                            <a href="/Localizacion.html">Localización</a>
+                        </li>
+                        <li>
+                            <a href="/QuienesSomos.html">Quienes Somos</a>
+                        </li>
+                        <li>
+                            <a href="/03_sabuza.html">Áreas de Actuación</a>
+                        </li>
+                        <li>
+                            <a href="Contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="Noticias.html">Noticias</a>
+                </li>
+                <li>
+                    <a href="Localizacion.html">Localización</a>
+                </li>
 
-    </nav>
+                <li>
+                    <a href="QuienesSomos.html">Quienes somos</a>
+                </li>
+                <li>
+                    <a href="03_sabuza.html">Áreas de Actuación</a>
+                    <ul>
+                        <li>
+                            <a href="/03_sabuza.html">Sabuza</a>
+                        </li>
+                        <li>
+                            <a href="#">Fantasia "En Construcción"</a>
+                        </li>
+                        <li>
+                            <a href="#">Jumishe "No Disponible"</a>
+                        </li>
+
+                    </ul>
+                </li>
+                <li>
+                    <a href="Contacto.html">Contacto</a>
+                </li>
+            </ul>
+        </nav>
 
 
+            <form id="RellenarFormulario" action="Reservar.jsp" method="get">
+                <label>Nombre:</label><INPUT TYPE="text" NAME="nombre" SIZE=18 MAXLENGTH=18
+                    placeholder="Escribe tu nombre." required><br /><br />
+                <label>Apellidos:</label><INPUT TYPE="text" NAME="apellidos" SIZE=48 MAXLENGTH=48
+                    placeholder="Escribe tus apellidos." required></label><br /><br />
+                <label>DNI</label><INPUT TYPE="text" NAME="dni" SIZE=8 MAXLENGTH=8><br /><br />
+                <label>Teléfono:</label><INPUT TYPE="text" NAME="telefono" SIZE=19 MAXLENGTH=19><br /><br />
+                <label>Email</label> <INPUT TYPE="email" NAME="email" PLACEHOLDER="email@email.com" required><br /><br />
+                <label>Área elegida:</label>
+                <SELECT NAME="Rooms">
+                    <option value="default" selected>Seleccione una... </option>
+                    <option value="value1">Jumishe</option>
+                    <option value="value2">Sabuza</option>
+                    <option value="value3">Pirata</option>
+                    <option value="value4">Desastre Quimico</option>
+                </SELECT><br /><br />
+                <label>Fecha de reserva:</label><input type="date" name="fecha" required />
+                <br /><br />
+                <INPUT TYPE="submit" VALUE="Enviar datos ">
+                <INPUT TYPE="reset" VALUE="Borrar los datos">
+            </form>
+        
+            <aside id="Blateral">
+                <div class="caja">
+                    <h2>Instrucciones del Formulario</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum quis lectus sed leo fringilla
+                        tempor a id eros. Nulla non varius elit. Curabitur aliquet quam leo, nec egestas mi facilisis in.
+                        Vestibulum venenatis, purus pretium vestibulum viverra, quam metus aliquam purus, ac rutrum erat
+                        justo a orci. Aenean posuere scelerisque est, at pretium felis porttitor eget. Phasellus ut
+                        dignissim dui. Vestibulum ultrices nulla a malesuada hendrerit. Sed eu erat laoreet, volutpat odio
+                        in, tincidunt neque.
+    
+                        Vestibulum vitae tortor urna. Quisque lacinia maximus ante et hendrerit. Aliquam massa turpis,
+                        hendrerit imperdiet dapibus in, rhoncus sit amet magna. Sed pretium enim ac laoreet dignissim. Nam
+                        eu vehicula metus. Mauris sit amet porttitor leo, sed laoreet libero. Phasellus a sodales dolor, et
+                        consequat ligula. Praesent at finibus dolor. Integer nec dolor nunc. Nunc in leo ullamcorper,
+                        ultricies metus sed, blandit orci.
+    
+                        Vivamus faucibus eros arcu, ac aliquam nibh pellentesque sed. Nullam vulputate urna odio, ut
+                        molestie metus maximus vitae. Phasellus ut dolor ante. Etiam scelerisque eros id quam consectetur,
+                        at sagittis enim blandit. Mauris sit amet tellus erat. Phasellus elementum laoreet nulla vel
+                        blandit. Ut eu volutpat purus. Nunc bibendum, purus vitae aliquam iaculis, dolor purus vestibulum
+                        quam, sed aliquam nibh urna id leo.
+    
+                        Proin justo sapien, dapibus porttitor arcu nec, vestibulum mattis velit. Suspendisse lectus felis,
+                        ornare quis sapien vestibulum, fringilla commodo justo. Duis dapibus tristique dignissim. Donec
+                        sollicitudin tristique lectus, vitae efficitur mauris varius eget. Quisque dignissim eget mauris in
+                        tempus. Vestibulum est ipsum, rhoncus quis porttitor in, placerat sed purus. Cras interdum tellus
+                        eget auctor luctus. Donec blandit quis quam ac consectetur. Nulla in malesuada felis. Vestibulum
+                        ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;
+    
+                        Fusce elementum tellus metus, eget volutpat mauris blandit a. Quisque in malesuada tellus, id
+                        commodo odio. Suspendisse id quam et dui consectetur rhoncus. Vivamus sagittis facilisis urna, id
+                        tempus augue. Mauris pretium facilisis magna, in viverra felis luctus at. Fusce fermentum vehicula
+                        mattis. Curabitur semper vel nulla ut lacinia. Curabitur ut lectus maximus felis rhoncus blandit.
+                        Nulla iaculis cursus tempus. In ut lacus augue.
+    
+                    </p>
+                </div>
+                <div class="clearfix"></div>
 
-    <div id="usuario"></div>
-        <form>
-            <label>Nombre</label>
-            <input type="text" name="nombre"/>
-            <label>Apellidos</label>
-            <input type="text" name="Apellidos"/>
-            <input type="submit" value="Enviar"/>
-        </form>
-    </div>   
+        
+    </div>
+
+    <footer id="footer">
+        <p class="parrafo">Todos los derechos reservados &copy; Juanjo</p>
+    </footer>
+
+
+    </div>
 </body>
+
 </html>
