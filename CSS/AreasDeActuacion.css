@@ -323,6 +323,10 @@ nav h2 {
 }
 
 
+@media screen and (min-width: 1300px){
+    h1{
+        font-size: 2em;
+    }
 
 /* RESPONSIVE*/
 /* Adaptación de ancho fijo de resoluciones de más de 1300px de ancho.*/
@@ -376,7 +380,7 @@ nav h2 {
 
     #desastrequimico {
         width: 100%;
-        height: 1120px;
+        height: 1000px;
         padding-left: 20px;
     }
 
@@ -393,7 +397,7 @@ nav h2 {
 
     #lux {
         width: 100%;
-        height: 792px;
+        height: 700px;
         padding-left: 20px;
     }
 
@@ -410,7 +414,7 @@ nav h2 {
 
     #pirata {
         width: 100%;
-        height: 840px;
+        height: 750px;
         padding-left: 20px;
     }
 
