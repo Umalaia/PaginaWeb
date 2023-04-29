@@ -47,15 +47,14 @@ body {
 
 .wrap {
     width: 1250px;
-    /*Robles: 1250px,midiendo con regla es lo que mide el nav aprox*/
     margin: 0px auto;
-    /*0px auto se ajusta a arriba del todo sin margen*/
+    
 }
 
 .gear,
 .icon {
     font-family: "WebSymbolsRegular";
-    /*en vez de la "S" me aparece la tuerquecita*/
+    
 }
 
 .clearfix {
@@ -81,9 +80,9 @@ body {
     margin-top: 8px;
     margin-left: 20px;
     cursor: pointer;
-    /*Dedito pulsar*/
+    
     overflow: hidden;
-    /*todo lo que salga fuera del logo se va a ocultar*/
+    
     transition: all 300ms;
 }
 

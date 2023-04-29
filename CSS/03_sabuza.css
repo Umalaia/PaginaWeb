@@ -1,74 +1,160 @@
+/*Sabuza Css*/
 
-
-body{
-    background-color: rgb(245, 240, 240);
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-#container{
-
-}
-header{
+* {
     margin: 0px;
-    color: rgb(10, 239, 255);
-    text-align: center;
-    height: 50px;
+    /*los pongo a cero para que se reseteen y luego los modifique*/
+    padding: 0px;
+}
+
+body {
+    background: url("/img/craneos.jpg");
+    /*le añado ese papel de fondo con rayitas*/
 }
 
 
-nav{
-    background-color: rgb(247, 200, 59);
     
-    padding : 1px;
-}
-
-a {
-    font-family: "Open Sans";
-    color: rgb(10, 114, 242);
-    text-decoration:none;
-    background-color: rgb(182, 179, 188);
-    padding: 5px; ;
-    border-radius: 100px;
     
-}
-h2 b{
-    color:gold;
-}
+  
+    header{
+        margin: 0px;
+        color: rgb(10, 239, 255);
+        text-align: center;
+        height: 50px;
+    }
+    
+    #nav {
+        display: block;
+        text-align: center;
+        width: 100%;
+        height: 40px;
+        background-color: #333333;
+        color: white;
+        font-family: sans-serif, helvetica, Arial;
+        font-size: 24px;
+        box-shadow: 0px 0px 2px gray;
+    
+    }
+    
+    #nav ul {
+       
+        list-style: none;
+        text-decoration: none;
+        margin: 0px auto;
+        width: 1090px;
+    
+    }
+    
+    #nav>ul>li {
+    
+        text-align: center;
+        line-height: 40px;
+        float: left;
+        border-right: #333333;
+        transition: all 300ms;
+    
+    }
+    
+    #nav>ul>li a {
+        display: block;
+        padding-right: 40px;
+        color: rgb(27, 203, 234);
+        text-decoration: none;
+    
+    }
+    
+    #nav>ul>li a:first-child {
+        border-left: 1px solid #333333;
+    }
+    
+    #nav>ul>li:hover {
+        background-color: lightskyblue;
+        box-shadow: 0px 0px 4px blue inset;
+    }
+    
+    /*MENU DESPLEGABLE*/
+    
+    #nav>ul>li>ul {
+    
+        display: none;
+        position: absolute;
+        width: 200px;
+        box-shadow: 0px 2px 2px gray;
+        z-index: 1;
+        text-align: center;
+    
+    }
+    
+    #nav>ul>li:hover>ul {
+        display: block;
+    }
+    
+    #nav>ul>li:hover>ul>li {
+        background-color: #f2f1F0;
+        border-bottom: 1px solid #d6d6d6;
+        padding: 8px;
+        line-height: 25px;
+        font-size: 13px;
+        transition: all 300ms;
+    }
+    
+    #nav>ul>li:hover>ul>li a {
+        color: #666666;
+    }
+    
+    #nav>ul>li:hover>ul>li:hover {
+        background-color: lightskyblue;
+    }
+    #contenido .Historia{
+color:white;
+text-align: center;
+padding-top:  50px;
+font-size: 25px;
 
-h4{
-    color :rgb(238, 47, 47);
-}
+    }
+    h2 b{
+        color:gold;
+    }
+    
+    h4{
+        color :rgb(238, 47, 47);
+    }
+    
+    .Objetivo b:hover{
+        color : rgb(228, 7, 118);
+    }
+    .Finalidad b:hover{
+        color:brown;
+    }
+    .contact-form{
+        color:blue
+    }
+    
+    #content{
+        float:left;
+        width: 80%;
+        min-height: 500px;
+        background: rgb(222, 224, 219);
+    }
+    
+    .article{
+        color:aqua;
+    }
+    
 
-.Objetivo b:hover{
-    color : rgb(228, 7, 118);
-}
-.Finalidad b:hover{
-    color:brown;
-}
-.contact-form{
-    color:blue
-}
-
-#content{
-    float:left;
-    width: 80%;
-    min-height: 500px;
-    background: rgb(222, 224, 219);
-}
-
-.article{
-    color:aqua;
-}
-
-aside{
-    float: right;
-    width: 10%;
-    background: rgb(5, 201, 245);   
-}
-footer{
-    background: black;
-    color:aqua;
-    text-align: center;
-    height: 50px;
-    line-height: 50px;
-}
+    .clearfix {
+        float: none;
+        clear: both;
+    }
+        
+    /*FOOTER*/
+    #footer {
+        width: 100%;
+        height: 55px;
+        margin-top: 500px;
+        font-size: 20px;
+        background: #f5f3f3;
+        text-align: center;
+        padding-top: 10px;
+        color: lightskyblue;
+        border-top: 1px solid black;
+    }
