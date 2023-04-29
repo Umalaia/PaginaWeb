@@ -247,7 +247,7 @@ ul li :hover{
 /*Adaptación de ancho fijo de resoluciones de más de 1300px de ancho.*/
 @media screen and (min-width:1300px){
     #contenedor{
-        max-width: 1300px;
+        max-width: 100%;
         margin: 0 auto;
     }
 
